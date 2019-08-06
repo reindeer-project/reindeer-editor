@@ -1,0 +1,45 @@
+{
+  "name": "reindeer-editor",
+  "version": "1.1.0",
+  "description": "A documentation generation tool supported by Reindeer Project. You can edit a CDD and display the cloud computing architecture by using this.",
+  "author": "ShintaroHara",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "@nuxtjs/google-analytics": "^2.2.0",
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "is-my-json-valid": "^2.19.0",
+    "js-yaml": "^3.12.2",
+    "lodash": "^4.17.11",
+    "monaco-editor-webpack-plugin": "^1.7.0",
+    "nuxt": "^2.4.0",
+    "nuxt-i18n": "^5.8.5",
+    "three": "^0.104.0",
+    "three-css3drenderer": "^1.0.1",
+    "three-orbitcontrols": "^2.102.1",
+    "tween": "^0.9.0",
+    "vue-monaco": "^0.3.1",
+    "vuetify": "^1.5.0",
+    "vuetify-loader": "^1.2.0",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "material-design-icons-iconfont": "^4.0.5",
+    "nodemon": "^1.18.9",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-jest": "^3.0.2"
+  }
+}

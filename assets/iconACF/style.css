@@ -1,0 +1,5287 @@
+@font-face {
+  font-family: 'awsIcons';
+  src:  url('fonts/awsIcons.eot?5r0dze');
+  src:  url('fonts/awsIcons.eot?5r0dze#iefix') format('embedded-opentype'),
+    url('fonts/awsIcons.ttf?5r0dze') format('truetype'),
+    url('fonts/awsIcons.woff?5r0dze') format('woff'),
+    url('fonts/awsIcons.svg?5r0dze#awsIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'awsIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-AWS-General_AWS-Cloud_light-bg:before {
+  content: "\e900";
+}
+.icon-Amazon-EC2_light-bg .path1:before {
+  content: "\e901";
+  color: rgb(216, 102, 19);
+}
+.icon-Amazon-EC2_light-bg .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-EC2_light-bg .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-EC2_light-bg .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Identity-and-Access-Management_IAM_light-bg .path1:before {
+  content: "\e905";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Identity-and-Access-Management_IAM_light-bg .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Identity-and-Access-Management_IAM_light-bg .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Identity-and-Access-Management_IAM_light-bg .path4:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Identity-and-Access-Management_IAM_light-bg .path5:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Identity-and-Access-Management_IAM_light-bg .path6:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Identity-and-Access-Management_IAM_light-bg .path7:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Identity-and-Access-Management_IAM_light-bg .path8:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Identity-and-Access-Management_IAM_light-bg .path9:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-1-Click_light-bg .path1:before {
+  content: "\e90e";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-IoT-1-Click_light-bg .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Analytics_Channel_light-bg:before {
+  content: "\e910";
+  color: #3f8624;
+}
+.icon-AWS-IoT-Analytics_light-bg .path1:before {
+  content: "\e911";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-IoT-Analytics_light-bg .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Button_light-bg .path1:before {
+  content: "\e913";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-IoT-Button_light-bg .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Button_light-bg .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Button_light-bg .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Button_light-bg .path5:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Button_light-bg .path6:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Button_light-bg .path7:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Button_light-bg .path8:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Core_light-bg .path1:before {
+  content: "\e91b";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-IoT-Core_light-bg .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Core_light-bg .path3:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Device-Defender_light-bg .path1:before {
+  content: "\e91e";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-IoT-Device-Defender_light-bg .path2:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Device-Defender_light-bg .path3:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Device-Management_light-bg .path1:before {
+  content: "\e921";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-IoT-Device-Management_light-bg .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Device-Management_light-bg .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path1:before {
+  content: "\e924";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-IoT-Events_light-bg .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path3:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path4:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path5:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path6:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path7:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path8:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path9:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path10:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path11:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path12:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path13:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path14:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Events_light-bg .path15:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Greengrass_light-bg .path1:before {
+  content: "\e933";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-IoT-Greengrass_light-bg .path2:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Greengrass_light-bg .path3:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Greengrass_light-bg .path4:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Greengrass_light-bg .path5:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Greengrass_light-bg .path6:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-Greengrass_light-bg .path7:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path1:before {
+  content: "\e93a";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path2:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path3:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path4:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path5:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path6:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path7:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path8:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path9:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path10:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-IoT-SiteWise_light-bg .path11:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Key-Management-Service_light-bg .path1:before {
+  content: "\e945";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Key-Management-Service_light-bg .path2:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Key-Management-Service_light-bg .path3:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Key-Management-Service_light-bg .path4:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Key-Management-Service_light-bg .path5:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Key-Management-Service_light-bg .path6:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Key-Management-Service_light-bg .path7:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Key-Management-Service_light-bg .path8:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path1:before {
+  content: "\e94d";
+  color: rgb(105, 60, 197);
+}
+.icon-AWS-Lake-Formation_light-bg .path2:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path3:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path4:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path5:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path6:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path7:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path8:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path9:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path10:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lake-Formation_light-bg .path11:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lambda_light-bg .path1:before {
+  content: "\e958";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Lambda_light-bg .path2:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Lambda_light-bg .path3:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path1:before {
+  content: "\e95b";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-License-Manager_light-bg .path2:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path3:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path4:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path5:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path6:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path7:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path8:before {
+  content: "\e962";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path9:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path10:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-License-Manager_light-bg .path11:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Managed-Services_light-bg .path1:before {
+  content: "\e966";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Managed-Services_light-bg .path2:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Managed-Services_light-bg .path3:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Managed-Services_light-bg .path4:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Managed-Services_light-bg .path5:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Managed-Services_light-bg .path6:before {
+  content: "\e96b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Managed-Services_light-bg .path7:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Managed-Services_light-bg .path8:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Managed-Services_light-bg .path9:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Managed-Services_light-bg .path10:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Management-Console_light-bg .path1:before {
+  content: "\e970";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Management-Console_light-bg .path2:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Migration-Hub_light-bg .path1:before {
+  content: "\e972";
+  color: rgb(28, 123, 104);
+}
+.icon-AWS-Migration-Hub_light-bg .path2:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Migration-Hub_light-bg .path3:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Migration-Hub_light-bg .path4:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Migration-Hub_light-bg .path5:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Migration-Hub_light-bg .path6:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Migration-Hub_light-bg .path7:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-OpsWorks_light-bg .path1:before {
+  content: "\e979";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-OpsWorks_light-bg .path2:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Organizations_Account_light-bg:before {
+  content: "\e97b";
+  color: #d6242d;
+}
+.icon-AWS-Outposts_light-bg .path1:before {
+  content: "\e97c";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Outposts_light-bg .path2:before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Outposts_light-bg .path3:before {
+  content: "\e97e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Outposts_light-bg .path4:before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Outposts_light-bg .path5:before {
+  content: "\e980";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Outposts_light-bg .path6:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Outposts_light-bg .path7:before {
+  content: "\e982";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Outposts_light-bg .path8:before {
+  content: "\e983";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Outposts_light-bg .path9:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Outposts_light-bg .path10:before {
+  content: "\e985";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Outposts_light-bg .path11:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Personal-Health-Dashboard_light-bg .path1:before {
+  content: "\e987";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Personal-Health-Dashboard_light-bg .path2:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Resource-Access-Manager_light-bg .path1:before {
+  content: "\e989";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Resource-Access-Manager_light-bg .path2:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Resource-Access-Manager_light-bg .path3:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Resource-Access-Manager_light-bg .path4:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Resource-Access-Manager_light-bg .path5:before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Resource-Access-Manager_light-bg .path6:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Resource-Access-Manager_light-bg .path7:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Resource-Access-Manager_light-bg .path8:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-RoboMaker_Cloud-Extension-ROS_light-bg:before {
+  content: "\e991";
+  color: #d6242d;
+}
+.icon-AWS-RoboMaker_Development-Environment_light-bg:before {
+  content: "\e992";
+  color: #d6242d;
+}
+.icon-AWS-RoboMaker_Fleet-Management_light-bg:before {
+  content: "\e993";
+  color: #d6242d;
+}
+.icon-AWS-RoboMaker_Simulation_light-bg:before {
+  content: "\e994";
+  color: #d6242d;
+}
+.icon-AWS-Secrets-Manager_light-bg .path1:before {
+  content: "\e995";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Secrets-Manager_light-bg .path2:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Secrets-Manager_light-bg .path3:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Secrets-Manager_light-bg .path4:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Secrets-Manager_light-bg .path5:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Secrets-Manager_light-bg .path6:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Secrets-Manager_light-bg .path7:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Secrets-Manager_light-bg .path8:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Secrets-Manager_light-bg .path9:before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Secrets-Manager_light-bg .path10:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Secrets-Manager_light-bg .path11:before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path1:before {
+  content: "\e9a0";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Security-Hub_light-bg .path2:before {
+  content: "\e9a1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path3:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path4:before {
+  content: "\e9a3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path5:before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path6:before {
+  content: "\e9a5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path7:before {
+  content: "\e9a6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path8:before {
+  content: "\e9a7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path9:before {
+  content: "\e9a8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path10:before {
+  content: "\e9a9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path11:before {
+  content: "\e9aa";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path12:before {
+  content: "\e9ab";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path13:before {
+  content: "\e9ac";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path14:before {
+  content: "\e9ad";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path15:before {
+  content: "\e9ae";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path16:before {
+  content: "\e9af";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Security-Hub_light-bg .path17:before {
+  content: "\e9b0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Serverless-Application-Repository_light-bg .path1:before {
+  content: "\e9b1";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Serverless-Application-Repository_light-bg .path2:before {
+  content: "\e9b2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Server-Migration-Service_light-bg .path1:before {
+  content: "\e9b3";
+  color: rgb(28, 123, 104);
+}
+.icon-AWS-Server-Migration-Service_light-bg .path2:before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Service-Catalog_light-bg .path1:before {
+  content: "\e9b5";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Service-Catalog_light-bg .path2:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.99;
+}
+.icon-AWS-Shield_light-bg .path1:before {
+  content: "\e9b7";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Shield_light-bg .path2:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Shield_light-bg .path3:before {
+  content: "\e9b9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Shield_light-bg .path4:before {
+  content: "\e9ba";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Shield_light-bg .path5:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Single-Sign-On_light-bg .path1:before {
+  content: "\e9bc";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Single-Sign-On_light-bg .path2:before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Single-Sign-On_light-bg .path3:before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball_light-bg .path1:before {
+  content: "\e9bf";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-Snowball_light-bg .path2:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball_light-bg .path3:before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball_light-bg .path4:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball_light-bg .path5:before {
+  content: "\e9c3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball-Edge_light-bg .path1:before {
+  content: "\e9c4";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-Snowball-Edge_light-bg .path2:before {
+  content: "\e9c5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball-Edge_light-bg .path3:before {
+  content: "\e9c6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball-Edge_light-bg .path4:before {
+  content: "\e9c7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball-Edge_light-bg .path5:before {
+  content: "\e9c8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball-Edge_light-bg .path6:before {
+  content: "\e9c9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowball-Edge_light-bg .path7:before {
+  content: "\e9ca";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowmobile_light-bg .path1:before {
+  content: "\e9cb";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-Snowmobile_light-bg .path2:before {
+  content: "\e9cc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowmobile_light-bg .path3:before {
+  content: "\e9cd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowmobile_light-bg .path4:before {
+  content: "\e9ce";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowmobile_light-bg .path5:before {
+  content: "\e9cf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Snowmobile_light-bg .path6:before {
+  content: "\e9d0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Step-Functions_light-bg .path1:before {
+  content: "\e9d1";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Step-Functions_light-bg .path2:before {
+  content: "\e9d2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Step-Functions_light-bg .path3:before {
+  content: "\e9d3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Storage-Gateway_light-bg .path1:before {
+  content: "\e9d4";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-Storage-Gateway_light-bg .path2:before {
+  content: "\e9d5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Storage-Gateway_light-bg .path3:before {
+  content: "\e9d6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Systems-Manager_light-bg .path1:before {
+  content: "\e9d7";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Systems-Manager_light-bg .path2:before {
+  content: "\e9d8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Tools-And-SDKs_light-bg .path1:before {
+  content: "\e9d9";
+  color: rgb(59, 72, 204);
+}
+.icon-AWS-Tools-And-SDKs_light-bg .path2:before {
+  content: "\e9da";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transfer-for-SFTP_light-bg .path1:before {
+  content: "\e9db";
+  color: rgb(28, 123, 104);
+}
+.icon-AWS-Transfer-for-SFTP_light-bg .path2:before {
+  content: "\e9dc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path1:before {
+  content: "\e9dd";
+  color: rgb(105, 60, 197);
+}
+.icon-AWS-Transit-Gateway_light-bg .path2:before {
+  content: "\e9de";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path3:before {
+  content: "\e9df";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path4:before {
+  content: "\e9e0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path5:before {
+  content: "\e9e1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path6:before {
+  content: "\e9e2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path7:before {
+  content: "\e9e3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path8:before {
+  content: "\e9e4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path9:before {
+  content: "\e9e5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path10:before {
+  content: "\e9e6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Transit-Gateway_light-bg .path11:before {
+  content: "\e9e7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Trusted-Advisor_light-bg .path1:before {
+  content: "\e9e8";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Trusted-Advisor_light-bg .path2:before {
+  content: "\e9e9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-WAF_light-bg .path1:before {
+  content: "\e9ea";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-WAF_light-bg .path2:before {
+  content: "\e9eb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-WAF_light-bg .path3:before {
+  content: "\e9ec";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-WAF_light-bg .path4:before {
+  content: "\e9ed";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-WAF_light-bg .path5:before {
+  content: "\e9ee";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-WAF_light-bg .path6:before {
+  content: "\e9ef";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-WAF_light-bg .path7:before {
+  content: "\e9f0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-WAF_light-bg .path8:before {
+  content: "\e9f1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-WAF_light-bg .path9:before {
+  content: "\e9f2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-WAF_light-bg .path10:before {
+  content: "\e9f3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Well-Architected-Tool_light-bg .path1:before {
+  content: "\e9f4";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Well-Architected-Tool_light-bg .path2:before {
+  content: "\e9f5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Well-Architected-Tool_light-bg .path3:before {
+  content: "\e9f6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Well-Architected-Tool_light-bg .path4:before {
+  content: "\e9f7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Well-Architected-Tool_light-bg .path5:before {
+  content: "\e9f8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Well-Architected-Tool_light-bg .path6:before {
+  content: "\e9f9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Well-Architected-Tool_light-bg .path7:before {
+  content: "\e9fa";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Well-Architected-Tool_light-bg .path8:before {
+  content: "\e9fb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Well-Architected-Tool_light-bg .path9:before {
+  content: "\e9fc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-X-Ray_light-bg .path1:before {
+  content: "\e9fd";
+  color: rgb(59, 72, 204);
+}
+.icon-AWS-X-Ray_light-bg .path2:before {
+  content: "\e9fe";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-X-Ray_light-bg .path3:before {
+  content: "\e9ff";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-X-Ray_light-bg .path4:before {
+  content: "\ea00";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Blockchain_light-bg .path1:before {
+  content: "\ea01";
+  color: rgb(216, 102, 19);
+}
+.icon-Blockchain_light-bg .path2:before {
+  content: "\ea02";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Blockchain_light-bg .path3:before {
+  content: "\ea03";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Blockchain_light-bg .path4:before {
+  content: "\ea04";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Blockchain_light-bg .path5:before {
+  content: "\ea05";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Blockchain_light-bg .path6:before {
+  content: "\ea06";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Business-Application_light-bg .path1:before {
+  content: "\ea07";
+  color: rgb(214, 36, 45);
+}
+.icon-Business-Application_light-bg .path2:before {
+  content: "\ea08";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Business-Application_light-bg .path3:before {
+  content: "\ea09";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Compute_light-bg .path1:before {
+  content: "\ea0a";
+  color: rgb(216, 102, 19);
+}
+.icon-Compute_light-bg .path2:before {
+  content: "\ea0b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Compute_light-bg .path3:before {
+  content: "\ea0c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Compute_light-bg .path4:before {
+  content: "\ea0d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Customer-Engagement_light-bg .path1:before {
+  content: "\ea0e";
+  color: rgb(59, 72, 204);
+}
+.icon-Customer-Engagement_light-bg .path2:before {
+  content: "\ea0f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Customer-Engagement_light-bg .path3:before {
+  content: "\ea10";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Customer-Engagement_light-bg .path4:before {
+  content: "\ea11";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Customer-Engagement_light-bg .path5:before {
+  content: "\ea12";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Customer-Engagement_light-bg .path6:before {
+  content: "\ea13";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Customer-Engagement_light-bg .path7:before {
+  content: "\ea14";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Customer-Engagement_light-bg .path8:before {
+  content: "\ea15";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Database_light-bg .path1:before {
+  content: "\ea16";
+  color: rgb(59, 72, 204);
+}
+.icon-Database_light-bg .path2:before {
+  content: "\ea17";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Database_light-bg .path3:before {
+  content: "\ea18";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Desktop-and-App-Streaming_light-bg .path1:before {
+  content: "\ea19";
+  color: rgb(28, 123, 104);
+}
+.icon-Desktop-and-App-Streaming_light-bg .path2:before {
+  content: "\ea1a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Desktop-and-App-Streaming_light-bg .path3:before {
+  content: "\ea1b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Developer-Tools_light-bg .path1:before {
+  content: "\ea1c";
+  color: rgb(59, 72, 204);
+}
+.icon-Developer-Tools_light-bg .path2:before {
+  content: "\ea1d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Developer-Tools_light-bg .path3:before {
+  content: "\ea1e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Elastic-Load-Balancing-ELB_light-bg .path1:before {
+  content: "\ea1f";
+  color: rgb(216, 102, 19);
+}
+.icon-Elastic-Load-Balancing-ELB_light-bg .path2:before {
+  content: "\ea20";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Game-Tech_light-bg .path1:before {
+  content: "\ea21";
+  color: rgb(105, 60, 197);
+}
+.icon-Game-Tech_light-bg .path2:before {
+  content: "\ea22";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Game-Tech_light-bg .path3:before {
+  content: "\ea23";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Game-Tech_light-bg .path4:before {
+  content: "\ea24";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Game-Tech_light-bg .path5:before {
+  content: "\ea25";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Internet-of-Things_light-bg .path1:before {
+  content: "\ea26";
+  color: rgb(63, 134, 36);
+}
+.icon-Internet-of-Things_light-bg .path2:before {
+  content: "\ea27";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Internet-of-Things_light-bg .path3:before {
+  content: "\ea28";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-IoT_Actuator_light-bg:before {
+  content: "\ea29";
+  color: #3f8624;
+}
+.icon-IoT_Alexa-Enabled-Device_light-bg:before {
+  content: "\ea2a";
+  color: #3f8624;
+}
+.icon-IoT_Alexa-Skill_light-bg:before {
+  content: "\ea2b";
+  color: #3f8624;
+}
+.icon-Machine-Learning_light-bg .path1:before {
+  content: "\ea2c";
+  color: rgb(28, 123, 104);
+}
+.icon-Machine-Learning_light-bg .path2:before {
+  content: "\ea2d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Machine-Learning_light-bg .path3:before {
+  content: "\ea2e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Machine-Learning_light-bg .path4:before {
+  content: "\ea2f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Machine-Learning_light-bg .path5:before {
+  content: "\ea30";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Management-and-Governance_light-bg .path1:before {
+  content: "\ea31";
+  color: rgb(205, 34, 100);
+}
+.icon-Management-and-Governance_light-bg .path2:before {
+  content: "\ea32";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Management-and-Governance_light-bg .path3:before {
+  content: "\ea33";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Media-Services_light-bg .path1:before {
+  content: "\ea34";
+  color: rgb(216, 102, 19);
+}
+.icon-Media-Services_light-bg .path2:before {
+  content: "\ea35";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Media-Services_light-bg .path3:before {
+  content: "\ea36";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Media-Services_light-bg .path4:before {
+  content: "\ea37";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Migration-and-Transfer_light-bg .path1:before {
+  content: "\ea38";
+  color: rgb(28, 123, 104);
+}
+.icon-Migration-and-Transfer_light-bg .path2:before {
+  content: "\ea39";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Migration-and-Transfer_light-bg .path3:before {
+  content: "\ea3a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Mobile_light-bg .path1:before {
+  content: "\ea3b";
+  color: rgb(214, 36, 45);
+}
+.icon-Mobile_light-bg .path2:before {
+  content: "\ea3c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Mobile_light-bg .path3:before {
+  content: "\ea3d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Mobile_light-bg .path4:before {
+  content: "\ea3e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Networking-and-Content-Delivery_light-bg .path1:before {
+  content: "\ea3f";
+  color: rgb(105, 60, 197);
+}
+.icon-Networking-and-Content-Delivery_light-bg .path2:before {
+  content: "\ea40";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Networking-and-Content-Delivery_light-bg .path3:before {
+  content: "\ea41";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Reserved-Instance-Reporting_light-bg .path1:before {
+  content: "\ea42";
+  color: rgb(63, 134, 36);
+}
+.icon-Reserved-Instance-Reporting_light-bg .path2:before {
+  content: "\ea43";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Reserved-Instance-Reporting_light-bg .path3:before {
+  content: "\ea44";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Robotics_light-bg .path1:before {
+  content: "\ea45";
+  color: rgb(214, 36, 45);
+}
+.icon-Robotics_light-bg .path2:before {
+  content: "\ea46";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Robotics_light-bg .path3:before {
+  content: "\ea47";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Robotics_light-bg .path4:before {
+  content: "\ea48";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Robotics_light-bg .path5:before {
+  content: "\ea49";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Robotics_light-bg .path6:before {
+  content: "\ea4a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Robotics_light-bg .path7:before {
+  content: "\ea4b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Satellite_light-bg .path1:before {
+  content: "\ea4c";
+  color: rgb(59, 72, 204);
+}
+.icon-Satellite_light-bg .path2:before {
+  content: "\ea4d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Satellite_light-bg .path3:before {
+  content: "\ea4e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Satellite_light-bg .path4:before {
+  content: "\ea4f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Satellite_light-bg .path5:before {
+  content: "\ea50";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Security-Identity-and-Compliance_light-bg .path1:before {
+  content: "\ea51";
+  color: rgb(214, 36, 45);
+}
+.icon-Security-Identity-and-Compliance_light-bg .path2:before {
+  content: "\ea52";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Security-Identity-and-Compliance_light-bg .path3:before {
+  content: "\ea53";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Security-Identity-and-Compliance_light-bg .path4:before {
+  content: "\ea54";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Security-Identity-and-Compliance_light-bg .path5:before {
+  content: "\ea55";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Storage_light-bg .path1:before {
+  content: "\ea56";
+  color: rgb(63, 134, 36);
+}
+.icon-Storage_light-bg .path2:before {
+  content: "\ea57";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Storage_light-bg .path3:before {
+  content: "\ea58";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Storage_light-bg .path4:before {
+  content: "\ea59";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Storage_light-bg .path5:before {
+  content: "\ea5a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Storage_light-bg .path6:before {
+  content: "\ea5b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Storage_light-bg .path7:before {
+  content: "\ea5c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-TensorFlow-on-AWS_light-bg .path1:before {
+  content: "\ea5d";
+  color: rgb(28, 123, 104);
+}
+.icon-TensorFlow-on-AWS_light-bg .path2:before {
+  content: "\ea5e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-TensorFlow-on-AWS_light-bg .path3:before {
+  content: "\ea5f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-TensorFlow-on-AWS_light-bg .path4:before {
+  content: "\ea60";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-TensorFlow-on-AWS_light-bg .path5:before {
+  content: "\ea61";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-VMware-Cloud-On-AWS_light-bg .path1:before {
+  content: "\ea62";
+  color: rgb(216, 102, 19);
+}
+.icon-VMware-Cloud-On-AWS_light-bg .path2:before {
+  content: "\ea63";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-VMware-Cloud-On-AWS_light-bg .path3:before {
+  content: "\ea64";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-VMware-Cloud-On-AWS_light-bg .path4:before {
+  content: "\ea65";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-VMware-Cloud-On-AWS_light-bg .path5:before {
+  content: "\ea66";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-VMware-Cloud-On-AWS_light-bg .path6:before {
+  content: "\ea67";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-VMware-Cloud-On-AWS_light-bg .path7:before {
+  content: "\ea68";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-VMware-Cloud-On-AWS_light-bg .path8:before {
+  content: "\ea69";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Alexa-For-Business_light-bg .path1:before {
+  content: "\ea6a";
+  color: rgb(214, 36, 45);
+}
+.icon-Alexa-For-Business_light-bg .path2:before {
+  content: "\ea6b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-API-Gateway_light-bg .path1:before {
+  content: "\ea6c";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-API-Gateway_light-bg .path2:before {
+  content: "\ea6d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-API-Gateway_light-bg .path3:before {
+  content: "\ea6e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-API-Gateway_light-bg .path4:before {
+  content: "\ea6f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-API-Gateway_light-bg .path5:before {
+  content: "\ea70";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-API-Gateway_light-bg .path6:before {
+  content: "\ea71";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-API-Gateway_light-bg .path7:before {
+  content: "\ea72";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-API-Gateway_light-bg .path8:before {
+  content: "\ea73";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Appstream-20_light-bg .path1:before {
+  content: "\ea74";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Appstream-20_light-bg .path2:before {
+  content: "\ea75";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Appstream-20_light-bg .path3:before {
+  content: "\ea76";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Athena_light-bg .path1:before {
+  content: "\ea77";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-Athena_light-bg .path2:before {
+  content: "\ea78";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Athena_light-bg .path3:before {
+  content: "\ea79";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path1:before {
+  content: "\ea7a";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-Aurora_light-bg .path2:before {
+  content: "\ea7b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path3:before {
+  content: "\ea7c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path4:before {
+  content: "\ea7d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path5:before {
+  content: "\ea7e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path6:before {
+  content: "\ea7f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path7:before {
+  content: "\ea80";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path8:before {
+  content: "\ea81";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path9:before {
+  content: "\ea82";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path10:before {
+  content: "\ea83";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Aurora_light-bg .path11:before {
+  content: "\ea84";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Chime_light-bg .path1:before {
+  content: "\ea85";
+  color: rgb(214, 36, 45);
+}
+.icon-Amazon-Chime_light-bg .path2:before {
+  content: "\ea86";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cloud-Directory_light-bg .path1:before {
+  content: "\ea87";
+  color: rgb(214, 36, 45);
+}
+.icon-Amazon-Cloud-Directory_light-bg .path2:before {
+  content: "\ea88";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cloud-Directory_light-bg .path3:before {
+  content: "\ea89";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cloud-Directory_light-bg .path4:before {
+  content: "\ea8a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path1:before {
+  content: "\ea8b";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-CloudFront_light-bg .path2:before {
+  content: "\ea8c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path3:before {
+  content: "\ea8d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path4:before {
+  content: "\ea8e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path5:before {
+  content: "\ea8f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path6:before {
+  content: "\ea90";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path7:before {
+  content: "\ea91";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path8:before {
+  content: "\ea92";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path9:before {
+  content: "\ea93";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path10:before {
+  content: "\ea94";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path11:before {
+  content: "\ea95";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path12:before {
+  content: "\ea96";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudFront_light-bg .path13:before {
+  content: "\ea97";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudSearch_light-bg .path1:before {
+  content: "\ea98";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-CloudSearch_light-bg .path2:before {
+  content: "\ea99";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudWatch_light-bg .path1:before {
+  content: "\ea9a";
+  color: rgb(204, 34, 100);
+}
+.icon-Amazon-CloudWatch_light-bg .path2:before {
+  content: "\ea9b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudWatch_light-bg .path3:before {
+  content: "\ea9c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-CloudWatch_light-bg .path4:before {
+  content: "\ea9d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cognito_light-bg .path1:before {
+  content: "\ea9e";
+  color: rgb(214, 36, 45);
+}
+.icon-Amazon-Cognito_light-bg .path2:before {
+  content: "\ea9f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cognito_light-bg .path3:before {
+  content: "\eaa0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cognito_light-bg .path4:before {
+  content: "\eaa1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cognito_light-bg .path5:before {
+  content: "\eaa2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cognito_light-bg .path6:before {
+  content: "\eaa3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cognito_light-bg .path7:before {
+  content: "\eaa4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Cognito_light-bg .path8:before {
+  content: "\eaa5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Comprehend_light-bg .path1:before {
+  content: "\eaa6";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Comprehend_light-bg .path2:before {
+  content: "\eaa7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Connect_light-bg .path1:before {
+  content: "\eaa8";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-Connect_light-bg .path2:before {
+  content: "\eaa9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Connect_light-bg .path3:before {
+  content: "\eaaa";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Connect_light-bg .path4:before {
+  content: "\eaab";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path1:before {
+  content: "\eaac";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path2:before {
+  content: "\eaad";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path3:before {
+  content: "\eaae";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path4:before {
+  content: "\eaaf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path5:before {
+  content: "\eab0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path6:before {
+  content: "\eab1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path7:before {
+  content: "\eab2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path8:before {
+  content: "\eab3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path9:before {
+  content: "\eab4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path10:before {
+  content: "\eab5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DocumentDB-with-MongoDB-compatibility_light-bg .path11:before {
+  content: "\eab6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DynamoDB_light-bg .path1:before {
+  content: "\eab7";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-DynamoDB_light-bg .path2:before {
+  content: "\eab8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DynamoDB_light-bg .path3:before {
+  content: "\eab9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DynamoDB_light-bg .path4:before {
+  content: "\eaba";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DynamoDB_light-bg .path5:before {
+  content: "\eabb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-DynamoDB_light-bg .path6:before {
+  content: "\eabc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-EC2_AMI_light-bg:before {
+  content: "\eabd";
+  color: #d86613;
+}
+.icon-Amazon-EC2_Elastic-IP-Address_light-bg:before {
+  content: "\eabe";
+  color: #d86613;
+}
+.icon-Amazon-EC2_Rescue_light-bg:before {
+  content: "\eabf";
+  color: #d86613;
+}
+.icon-Amazon-EC2-Auto-Scaling_light-bg .path1:before {
+  content: "\eac0";
+  color: rgb(216, 102, 19);
+}
+.icon-Amazon-EC2-Auto-Scaling_light-bg .path2:before {
+  content: "\eac1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-EC2-Auto-Scaling_light-bg .path3:before {
+  content: "\eac2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-EC2-Auto-Scaling_light-bg .path4:before {
+  content: "\eac3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-EC2-Auto-Scaling_light-bg .path5:before {
+  content: "\eac4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-EC2-Auto-Scaling_light-bg .path6:before {
+  content: "\eac5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-EC2-Container-Registry_Image_light-bg:before {
+  content: "\eac6";
+  color: #d86613;
+}
+.icon-Amazon-EC2-Container-Registry_Registry_light-bg:before {
+  content: "\eac7";
+  color: #d86613;
+}
+.icon-Amazon-ElastiCache_light-bg .path1:before {
+  content: "\eac8";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-ElastiCache_light-bg .path2:before {
+  content: "\eac9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-ElastiCache_light-bg .path3:before {
+  content: "\eaca";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-ElastiCache_light-bg .path4:before {
+  content: "\eacb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-ElastiCache_light-bg .path5:before {
+  content: "\eacc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-ElastiCache_light-bg .path6:before {
+  content: "\eacd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-ElastiCache_light-bg .path7:before {
+  content: "\eace";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Block-Store-EBS_light-bg .path1:before {
+  content: "\eacf";
+  color: rgb(63, 134, 36);
+}
+.icon-Amazon-Elastic-Block-Store-EBS_light-bg .path2:before {
+  content: "\ead0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Block-Store-EBS_light-bg .path3:before {
+  content: "\ead1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Block-Store-EBS_light-bg .path4:before {
+  content: "\ead2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Block-Store-EBS_light-bg .path5:before {
+  content: "\ead3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Block-Store-EBS_light-bg .path6:before {
+  content: "\ead4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Block-Store-EBS_light-bg .path7:before {
+  content: "\ead5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Block-Store-EBS_light-bg .path8:before {
+  content: "\ead6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Block-Store-EBS_Snapshot_light-bg:before {
+  content: "\ead7";
+  color: #3f8624;
+}
+.icon-Amazon-Elastic-Block-Store-EBS_Volume_light-bg:before {
+  content: "\ead8";
+  color: #3f8624;
+}
+.icon-Amazon-Elastic-Container-Service_light-bg .path1:before {
+  content: "\ead9";
+  color: rgb(216, 102, 19);
+}
+.icon-Amazon-Elastic-Container-Service_light-bg .path2:before {
+  content: "\eada";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Container-Service_light-bg .path3:before {
+  content: "\eadb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Container-Service_Task_light-bg:before {
+  content: "\eadc";
+  color: #d86613;
+}
+.icon-Amazon-Elastic-Container-Service-for-Kubernetes_light-bg .path1:before {
+  content: "\eadd";
+  color: rgb(216, 102, 19);
+}
+.icon-Amazon-Elastic-Container-Service-for-Kubernetes_light-bg .path2:before {
+  content: "\eade";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Container-Service-for-Kubernetes_light-bg .path3:before {
+  content: "\eadf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Container-Service-for-Kubernetes_light-bg .path4:before {
+  content: "\eae0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-File-System_EFS_light-bg .path1:before {
+  content: "\eae1";
+  color: rgb(63, 134, 36);
+}
+.icon-Amazon-Elastic-File-System_EFS_light-bg .path2:before {
+  content: "\eae2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-File-System_EFS_light-bg .path3:before {
+  content: "\eae3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-File-System_EFS_light-bg .path4:before {
+  content: "\eae4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-File-System_EFS_light-bg .path5:before {
+  content: "\eae5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-File-System_EFS_light-bg .path6:before {
+  content: "\eae6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-File-System_EFS_light-bg .path7:before {
+  content: "\eae7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Inference_light-bg .path1:before {
+  content: "\eae8";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Elastic-Inference_light-bg .path2:before {
+  content: "\eae9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Inference_light-bg .path3:before {
+  content: "\eaea";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Inference_light-bg .path4:before {
+  content: "\eaeb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Inference_light-bg .path5:before {
+  content: "\eaec";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Inference_light-bg .path6:before {
+  content: "\eaed";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Inference_light-bg .path7:before {
+  content: "\eaee";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Inference_light-bg .path8:before {
+  content: "\eaef";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elasticsearch-Service_light-bg .path1:before {
+  content: "\eaf0";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-Elasticsearch-Service_light-bg .path2:before {
+  content: "\eaf1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elasticsearch-Service_light-bg .path3:before {
+  content: "\eaf2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elasticsearch-Service_light-bg .path4:before {
+  content: "\eaf3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elasticsearch-Service_light-bg .path5:before {
+  content: "\eaf4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elasticsearch-Service_light-bg .path6:before {
+  content: "\eaf5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elasticsearch-Service_light-bg .path7:before {
+  content: "\eaf6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elasticsearch-Service_light-bg .path8:before {
+  content: "\eaf7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Elastic-Transcoder_light-bg .path1:before {
+  content: "\eaf8";
+  color: rgb(216, 102, 19);
+}
+.icon-Amazon-Elastic-Transcoder_light-bg .path2:before {
+  content: "\eaf9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-EMR_Cluster_light-bg:before {
+  content: "\eafa";
+  color: #693cc5;
+}
+.icon-Amazon-EMR_HDFS-Cluster_light-bg:before {
+  content: "\eafb";
+  color: #693cc5;
+}
+.icon-Amazon-Forecast_light-bg .path1:before {
+  content: "\eafc";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Forecast_light-bg .path2:before {
+  content: "\eafd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Forecast_light-bg .path3:before {
+  content: "\eafe";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Forecast_light-bg .path4:before {
+  content: "\eaff";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Forecast_light-bg .path5:before {
+  content: "\eb00";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Forecast_light-bg .path6:before {
+  content: "\eb01";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Forecast_light-bg .path7:before {
+  content: "\eb02";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Forecast_light-bg .path8:before {
+  content: "\eb03";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-FreeRTOS-light-bg .path1:before {
+  content: "\eb04";
+  color: rgb(63, 134, 36);
+}
+.icon-Amazon-FreeRTOS-light-bg .path2:before {
+  content: "\eb05";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-FreeRTOS-light-bg .path3:before {
+  content: "\eb06";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-FSx_light-bg .path1:before {
+  content: "\eb07";
+  color: rgb(63, 134, 36);
+}
+.icon-Amazon-FSx_light-bg .path2:before {
+  content: "\eb08";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-FSx_light-bg .path3:before {
+  content: "\eb09";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-FSx_light-bg .path4:before {
+  content: "\eb0a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-FSx_light-bg .path5:before {
+  content: "\eb0b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-FSx_light-bg .path6:before {
+  content: "\eb0c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-GameLift_light-bg .path1:before {
+  content: "\eb0d";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-GameLift_light-bg .path2:before {
+  content: "\eb0e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-GameLift_light-bg .path3:before {
+  content: "\eb0f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-GameLift_light-bg .path4:before {
+  content: "\eb10";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-GameLift_light-bg .path5:before {
+  content: "\eb11";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-GuardDuty_light-bg .path1:before {
+  content: "\eb12";
+  color: rgb(214, 36, 45);
+}
+.icon-Amazon-GuardDuty_light-bg .path2:before {
+  content: "\eb13";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Inspector_Agent_light-bg:before {
+  content: "\eb14";
+  color: #d6242d;
+}
+.icon-Amazon-Inspector_light-bg .path1:before {
+  content: "\eb15";
+  color: rgb(214, 36, 45);
+}
+.icon-Amazon-Inspector_light-bg .path2:before {
+  content: "\eb16";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Inspector_light-bg .path3:before {
+  content: "\eb17";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Kinesis_light-bg .path1:before {
+  content: "\eb18";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-Kinesis_light-bg .path2:before {
+  content: "\eb19";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Kinesis_light-bg .path3:before {
+  content: "\eb1a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Kinesis_light-bg .path4:before {
+  content: "\eb1b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Kinesis_light-bg .path5:before {
+  content: "\eb1c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Kinesis_light-bg .path6:before {
+  content: "\eb1d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Kinesis-Video-Streams_light-bg .path1:before {
+  content: "\eb1e";
+  color: rgb(216, 102, 19);
+}
+.icon-Amazon-Kinesis-Video-Streams_light-bg .path2:before {
+  content: "\eb1f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path1:before {
+  content: "\eb20";
+  color: rgb(216, 102, 19);
+}
+.icon-Amazon-Lightsail_light-bg .path2:before {
+  content: "\eb21";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path3:before {
+  content: "\eb22";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path4:before {
+  content: "\eb23";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path5:before {
+  content: "\eb24";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path6:before {
+  content: "\eb25";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path7:before {
+  content: "\eb26";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path8:before {
+  content: "\eb27";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path9:before {
+  content: "\eb28";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path10:before {
+  content: "\eb29";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path11:before {
+  content: "\eb2a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path12:before {
+  content: "\eb2b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Lightsail_light-bg .path13:before {
+  content: "\eb2c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Macie_light-bg .path1:before {
+  content: "\eb2d";
+  color: rgb(214, 36, 45);
+}
+.icon-Amazon-Macie_light-bg .path2:before {
+  content: "\eb2e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Blockchain_light-bg .path1:before {
+  content: "\eb2f";
+  color: rgb(216, 102, 19);
+}
+.icon-Amazon-Managed-Blockchain_light-bg .path2:before {
+  content: "\eb30";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Blockchain_light-bg .path3:before {
+  content: "\eb31";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Blockchain_light-bg .path4:before {
+  content: "\eb32";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Blockchain_light-bg .path5:before {
+  content: "\eb33";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Blockchain_light-bg .path6:before {
+  content: "\eb34";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Blockchain_light-bg .path7:before {
+  content: "\eb35";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Blockchain_light-bg .path8:before {
+  content: "\eb36";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Blockchain_light-bg .path9:before {
+  content: "\eb37";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Streaming-for-Kafka_light-bg .path1:before {
+  content: "\eb38";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-Managed-Streaming-for-Kafka_light-bg .path2:before {
+  content: "\eb39";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Streaming-for-Kafka_light-bg .path3:before {
+  content: "\eb3a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Streaming-for-Kafka_light-bg .path4:before {
+  content: "\eb3b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Streaming-for-Kafka_light-bg .path5:before {
+  content: "\eb3c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Managed-Streaming-for-Kafka_light-bg .path6:before {
+  content: "\eb3d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path1:before {
+  content: "\eb3e";
+  color: rgb(204, 34, 100);
+}
+.icon-Amazon-MQ_light-bg .path2:before {
+  content: "\eb3f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path3:before {
+  content: "\eb40";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path4:before {
+  content: "\eb41";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path5:before {
+  content: "\eb42";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path6:before {
+  content: "\eb43";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path7:before {
+  content: "\eb44";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path8:before {
+  content: "\eb45";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path9:before {
+  content: "\eb46";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path10:before {
+  content: "\eb47";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path11:before {
+  content: "\eb48";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path12:before {
+  content: "\eb49";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path13:before {
+  content: "\eb4a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-MQ_light-bg .path14:before {
+  content: "\eb4b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Neptune_light-bg .path1:before {
+  content: "\eb4c";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-Neptune_light-bg .path2:before {
+  content: "\eb4d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path1:before {
+  content: "\eb4e";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Personalize_light-bg .path2:before {
+  content: "\eb4f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path3:before {
+  content: "\eb50";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path4:before {
+  content: "\eb51";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path5:before {
+  content: "\eb52";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path6:before {
+  content: "\eb53";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path7:before {
+  content: "\eb54";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path8:before {
+  content: "\eb55";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path9:before {
+  content: "\eb56";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path10:before {
+  content: "\eb57";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path11:before {
+  content: "\eb58";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Personalize_light-bg .path12:before {
+  content: "\eb59";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Pinpoint_light-bg .path1:before {
+  content: "\eb5a";
+  color: rgb(214, 36, 45);
+}
+.icon-Amazon-Pinpoint_light-bg .path2:before {
+  content: "\eb5b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Pinpoint_light-bg .path3:before {
+  content: "\eb5c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path1:before {
+  content: "\eb5d";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Polly_light-bg .path2:before {
+  content: "\eb5e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path3:before {
+  content: "\eb5f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path4:before {
+  content: "\eb60";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path5:before {
+  content: "\eb61";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path6:before {
+  content: "\eb62";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path7:before {
+  content: "\eb63";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path8:before {
+  content: "\eb64";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path9:before {
+  content: "\eb65";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path10:before {
+  content: "\eb66";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path11:before {
+  content: "\eb67";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path12:before {
+  content: "\eb68";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path13:before {
+  content: "\eb69";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path14:before {
+  content: "\eb6a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Polly_light-bg .path15:before {
+  content: "\eb6b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path1:before {
+  content: "\eb6c";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path2:before {
+  content: "\eb6d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path3:before {
+  content: "\eb6e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path4:before {
+  content: "\eb6f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path5:before {
+  content: "\eb70";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path6:before {
+  content: "\eb71";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path7:before {
+  content: "\eb72";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path8:before {
+  content: "\eb73";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path9:before {
+  content: "\eb74";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database_QLDB_light-bg .path10:before {
+  content: "\eb75";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path1:before {
+  content: "\eb76";
+  color: rgb(216, 102, 19);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path2:before {
+  content: "\eb77";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path3:before {
+  content: "\eb78";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path4:before {
+  content: "\eb79";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path5:before {
+  content: "\eb7a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path6:before {
+  content: "\eb7b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path7:before {
+  content: "\eb7c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path8:before {
+  content: "\eb7d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path9:before {
+  content: "\eb7e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Quantum-Ledger-Database-QLDB_light-bg .path10:before {
+  content: "\eb7f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-QuickSight_light-bg .path1:before {
+  content: "\eb80";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-QuickSight_light-bg .path2:before {
+  content: "\eb81";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-QuickSight_light-bg .path3:before {
+  content: "\eb82";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-RDS_light-bg .path1:before {
+  content: "\eb83";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-RDS_light-bg .path2:before {
+  content: "\eb84";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-RDS_light-bg .path3:before {
+  content: "\eb85";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-RDS_light-bg .path4:before {
+  content: "\eb86";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-RDS_light-bg .path5:before {
+  content: "\eb87";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-RDS_light-bg .path6:before {
+  content: "\eb88";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-RDS_light-bg .path7:before {
+  content: "\eb89";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-RDS_light-bg .path8:before {
+  content: "\eb8a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Redshift_light-bg .path1:before {
+  content: "\eb8b";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-Redshift_light-bg .path2:before {
+  content: "\eb8c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Redshift_light-bg .path3:before {
+  content: "\eb8d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Redshift_light-bg .path4:before {
+  content: "\eb8e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Redshift_light-bg .path5:before {
+  content: "\eb8f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Redshift_light-bg .path6:before {
+  content: "\eb90";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Redshift_light-bg .path7:before {
+  content: "\eb91";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Redshift_light-bg .path8:before {
+  content: "\eb92";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Redshift_light-bg .path9:before {
+  content: "\eb93";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Redshift_light-bg .path10:before {
+  content: "\eb94";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path1:before {
+  content: "\eb95";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Rekognition_light-bg .path2:before {
+  content: "\eb96";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path3:before {
+  content: "\eb97";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path4:before {
+  content: "\eb98";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path5:before {
+  content: "\eb99";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path6:before {
+  content: "\eb9a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path7:before {
+  content: "\eb9b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path8:before {
+  content: "\eb9c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path9:before {
+  content: "\eb9d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path10:before {
+  content: "\eb9e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Rekognition_light-bg .path11:before {
+  content: "\eb9f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Route-53_light-bg .path1:before {
+  content: "\eba0";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-Route-53_light-bg .path2:before {
+  content: "\eba1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Route-53_light-bg .path3:before {
+  content: "\eba2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Route-53_light-bg .path4:before {
+  content: "\eba3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Route-53_light-bg .path5:before {
+  content: "\eba4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Route-53_Route-Table_light-bg:before {
+  content: "\eba5";
+  color: #693cc5;
+}
+.icon-Amazon-S3-Glacier_light-bg .path1:before {
+  content: "\eba6";
+  color: rgb(63, 134, 36);
+}
+.icon-Amazon-S3-Glacier_light-bg .path2:before {
+  content: "\eba7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path3:before {
+  content: "\eba8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path4:before {
+  content: "\eba9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path5:before {
+  content: "\ebaa";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path6:before {
+  content: "\ebab";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path7:before {
+  content: "\ebac";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path8:before {
+  content: "\ebad";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path9:before {
+  content: "\ebae";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path10:before {
+  content: "\ebaf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path11:before {
+  content: "\ebb0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-S3-Glacier_light-bg .path12:before {
+  content: "\ebb1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-SageMaker_light-bg .path1:before {
+  content: "\ebb2";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-SageMaker_light-bg .path2:before {
+  content: "\ebb3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Email-Service-SES_light-bg .path1:before {
+  content: "\ebb4";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-Simple-Email-Service-SES_light-bg .path2:before {
+  content: "\ebb5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Email-Service-SES_light-bg .path3:before {
+  content: "\ebb6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Notification-Service-SNS_light-bg .path1:before {
+  content: "\ebb7";
+  color: rgb(204, 34, 100);
+}
+.icon-Amazon-Simple-Notification-Service-SNS_light-bg .path2:before {
+  content: "\ebb8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Notification-Service-SNS_light-bg .path3:before {
+  content: "\ebb9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Notification-Service-SNS_light-bg .path4:before {
+  content: "\ebba";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Notification-Service-SNS_light-bg .path5:before {
+  content: "\ebbb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Notification-Service-SNS_light-bg .path6:before {
+  content: "\ebbc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Notification-Service-SNS_light-bg .path7:before {
+  content: "\ebbd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Queue-Service-SQS_light-bg .path1:before {
+  content: "\ebbe";
+  color: rgb(204, 34, 100);
+}
+.icon-Amazon-Simple-Queue-Service-SQS_light-bg .path2:before {
+  content: "\ebbf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Queue-Service-SQS_light-bg .path3:before {
+  content: "\ebc0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Queue-Service-SQS_light-bg .path4:before {
+  content: "\ebc1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Queue-Service-SQS_light-bg .path5:before {
+  content: "\ebc2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Queue-Service-SQS_light-bg .path6:before {
+  content: "\ebc3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Queue-Service-SQS_light-bg .path7:before {
+  content: "\ebc4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Queue-Service-SQS_light-bg .path8:before {
+  content: "\ebc5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Simple-Storage-Service-S3_light-bg .path1:before {
+  content: "\ebc6";
+  color: rgb(63, 134, 36);
+}
+.icon-Amazon-Simple-Storage-Service-S3_light-bg .path2:before {
+  content: "\ebc7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Sumerian_light-bg .path1:before {
+  content: "\ebc8";
+  color: rgb(204, 34, 100);
+}
+.icon-Amazon-Sumerian_light-bg .path2:before {
+  content: "\ebc9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path1:before {
+  content: "\ebca";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Textract_light-bg .path2:before {
+  content: "\ebcb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path3:before {
+  content: "\ebcc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path4:before {
+  content: "\ebcd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path5:before {
+  content: "\ebce";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path6:before {
+  content: "\ebcf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path7:before {
+  content: "\ebd0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path8:before {
+  content: "\ebd1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path9:before {
+  content: "\ebd2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path10:before {
+  content: "\ebd3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path11:before {
+  content: "\ebd4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path12:before {
+  content: "\ebd5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path13:before {
+  content: "\ebd6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path14:before {
+  content: "\ebd7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path15:before {
+  content: "\ebd8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path16:before {
+  content: "\ebd9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path17:before {
+  content: "\ebda";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path18:before {
+  content: "\ebdb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path19:before {
+  content: "\ebdc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Textract_light-bg .path20:before {
+  content: "\ebdd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path1:before {
+  content: "\ebde";
+  color: rgb(59, 72, 204);
+}
+.icon-Amazon-Timestream_light-bg .path2:before {
+  content: "\ebdf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path3:before {
+  content: "\ebe0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path4:before {
+  content: "\ebe1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path5:before {
+  content: "\ebe2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path6:before {
+  content: "\ebe3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path7:before {
+  content: "\ebe4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path8:before {
+  content: "\ebe5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path9:before {
+  content: "\ebe6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path10:before {
+  content: "\ebe7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path11:before {
+  content: "\ebe8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path12:before {
+  content: "\ebe9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path13:before {
+  content: "\ebea";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path14:before {
+  content: "\ebeb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Timestream_light-bg .path15:before {
+  content: "\ebec";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Transcribe_light-bg .path1:before {
+  content: "\ebed";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Transcribe_light-bg .path2:before {
+  content: "\ebee";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-VPC_Customer-Gateway_light-bg:before {
+  content: "\ebef";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_Elastic-Network-Adapter_light-bg:before {
+  content: "\ebf0";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_Elastic-Network-Interface_light-bg:before {
+  content: "\ebf1";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_Endpoints_light-bg:before {
+  content: "\ebf2";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_Flow-Logs_light-bg:before {
+  content: "\ebf3";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_Internet-Gateway_light-bg:before {
+  content: "\ebf4";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_NAT-Gateway_light-bg:before {
+  content: "\ebf5";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_Network-Access-Control-List_light-bg:before {
+  content: "\ebf6";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_Peering_light-bg:before {
+  content: "\ebf7";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_Router_light-bg:before {
+  content: "\ebf8";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_VPN-Connection_light-bg:before {
+  content: "\ebf9";
+  color: #693cc5;
+}
+.icon-Amazon-VPC_VPN-Gateway_light-bg:before {
+  content: "\ebfa";
+  color: #693cc5;
+}
+.icon-Amazon-VPC-PrivateLink_light-bg .path1:before {
+  content: "\ebfb";
+  color: rgb(105, 60, 197);
+}
+.icon-Amazon-VPC-PrivateLink_light-bg .path2:before {
+  content: "\ebfc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-WorkDocs_light-bg .path1:before {
+  content: "\ebfd";
+  color: rgb(214, 36, 45);
+}
+.icon-Amazon-WorkDocs_light-bg .path2:before {
+  content: "\ebfe";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-WorkMail_light-bg .path1:before {
+  content: "\ebff";
+  color: rgb(214, 36, 45);
+}
+.icon-Amazon-WorkMail_light-bg .path2:before {
+  content: "\ec00";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Amazon-Workspaces_light-bg .path1:before {
+  content: "\ec01";
+  color: rgb(28, 123, 104);
+}
+.icon-Amazon-Workspaces_light-bg .path2:before {
+  content: "\ec02";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Analytics_light-bg .path1:before {
+  content: "\ec03";
+  color: rgb(105, 60, 197);
+}
+.icon-Analytics_light-bg .path2:before {
+  content: "\ec04";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Analytics_light-bg .path3:before {
+  content: "\ec05";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Analytics_light-bg .path4:before {
+  content: "\ec06";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Apache-MXNet-on-AWS_light-bg .path1:before {
+  content: "\ec07";
+  color: rgb(28, 123, 104);
+}
+.icon-Apache-MXNet-on-AWS_light-bg .path2:before {
+  content: "\ec08";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Apache-MXNet-on-AWS_light-bg .path3:before {
+  content: "\ec09";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Apache-MXNet-on-AWS_light-bg .path4:before {
+  content: "\ec0a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Apache-MXNet-on-AWS_light-bg .path5:before {
+  content: "\ec0b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Application-Integration_light-bg .path1:before {
+  content: "\ec0c";
+  color: rgb(205, 34, 100);
+}
+.icon-Application-Integration_light-bg .path2:before {
+  content: "\ec0d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Application-Integration_light-bg .path3:before {
+  content: "\ec0e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AR-VR_light-bg .path1:before {
+  content: "\ec0f";
+  color: rgb(205, 34, 100);
+}
+.icon-AR-VR_light-bg .path2:before {
+  content: "\ec10";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AR-VR_light-bg .path3:before {
+  content: "\ec11";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Amplify_light-bg .path1:before {
+  content: "\ec12";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Amplify_light-bg .path2:before {
+  content: "\ec13";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Amplify_light-bg .path3:before {
+  content: "\ec14";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Amplify_light-bg .path4:before {
+  content: "\ec15";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Application-Discovery-Service_light-bg .path1:before {
+  content: "\ec16";
+  color: rgb(28, 123, 104);
+}
+.icon-AWS-Application-Discovery-Service_light-bg .path2:before {
+  content: "\ec17";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path1:before {
+  content: "\ec18";
+  color: rgb(105, 60, 197);
+}
+.icon-AWS-App-Mesh_light-bg .path2:before {
+  content: "\ec19";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path3:before {
+  content: "\ec1a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path4:before {
+  content: "\ec1b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path5:before {
+  content: "\ec1c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path6:before {
+  content: "\ec1d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path7:before {
+  content: "\ec1e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path8:before {
+  content: "\ec1f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path9:before {
+  content: "\ec20";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path10:before {
+  content: "\ec21";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path11:before {
+  content: "\ec22";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path12:before {
+  content: "\ec23";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path13:before {
+  content: "\ec24";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path14:before {
+  content: "\ec25";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path15:before {
+  content: "\ec26";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path16:before {
+  content: "\ec27";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path17:before {
+  content: "\ec28";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path18:before {
+  content: "\ec29";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path19:before {
+  content: "\ec2a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-App-Mesh_light-bg .path20:before {
+  content: "\ec2b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-AppSync_light-bg .path1:before {
+  content: "\ec2c";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-AppSync_light-bg .path2:before {
+  content: "\ec2d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Artifact_light-bg .path1:before {
+  content: "\ec2e";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Artifact_light-bg .path2:before {
+  content: "\ec2f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Artifact_light-bg .path3:before {
+  content: "\ec30";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Artifact_light-bg .path4:before {
+  content: "\ec31";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Artifact_light-bg .path5:before {
+  content: "\ec32";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Artifact_light-bg .path6:before {
+  content: "\ec33";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Artifact_light-bg .path7:before {
+  content: "\ec34";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Artifact_light-bg .path8:before {
+  content: "\ec35";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Artifact_light-bg .path9:before {
+  content: "\ec36";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Auto-Scaling_light-bg .path1:before {
+  content: "\ec37";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Auto-Scaling_light-bg .path2:before {
+  content: "\ec38";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Auto-Scaling_light-bg .path3:before {
+  content: "\ec39";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Auto-Scaling_light-bg .path4:before {
+  content: "\ec3a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Auto-Scaling_light-bg .path5:before {
+  content: "\ec3b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Auto-Scaling_light-bg .path6:before {
+  content: "\ec3c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path1:before {
+  content: "\ec3d";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-Backup_light-bg .path2:before {
+  content: "\ec3e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path3:before {
+  content: "\ec3f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path4:before {
+  content: "\ec40";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path5:before {
+  content: "\ec41";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path6:before {
+  content: "\ec42";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path7:before {
+  content: "\ec43";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path8:before {
+  content: "\ec44";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path9:before {
+  content: "\ec45";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path10:before {
+  content: "\ec46";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path11:before {
+  content: "\ec47";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path12:before {
+  content: "\ec48";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path13:before {
+  content: "\ec49";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path14:before {
+  content: "\ec4a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path15:before {
+  content: "\ec4b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path16:before {
+  content: "\ec4c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path17:before {
+  content: "\ec4d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Backup_light-bg .path18:before {
+  content: "\ec4e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Batch_light-bg .path1:before {
+  content: "\ec4f";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Batch_light-bg .path2:before {
+  content: "\ec50";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Batch_light-bg .path3:before {
+  content: "\ec51";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Batch_light-bg .path4:before {
+  content: "\ec52";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Budgets_light-bg .path1:before {
+  content: "\ec53";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-Budgets_light-bg .path2:before {
+  content: "\ec54";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Budgets_light-bg .path3:before {
+  content: "\ec55";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Budgets_light-bg .path4:before {
+  content: "\ec56";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Budgets_light-bg .path5:before {
+  content: "\ec57";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Certificate-Manager_light-bg .path1:before {
+  content: "\ec58";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Certificate-Manager_light-bg .path2:before {
+  content: "\ec59";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Certificate-Manager_light-bg .path3:before {
+  content: "\ec5a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Certificate-Manager_light-bg .path4:before {
+  content: "\ec5b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Certificate-Manager_light-bg .path5:before {
+  content: "\ec5c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Certificate-Manager_light-bg .path6:before {
+  content: "\ec5d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Certificate-Manager_light-bg .path7:before {
+  content: "\ec5e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Certificate-Manager_light-bg .path8:before {
+  content: "\ec5f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Client-VPN_light-bg .path1:before {
+  content: "\ec60";
+  color: rgb(105, 60, 197);
+}
+.icon-AWS-Client-VPN_light-bg .path2:before {
+  content: "\ec61";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Client-VPN_light-bg .path3:before {
+  content: "\ec62";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Client-VPN_light-bg .path4:before {
+  content: "\ec63";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Client-VPN_light-bg .path5:before {
+  content: "\ec64";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud9_light-bg .path1:before {
+  content: "\ec65";
+  color: rgb(59, 72, 204);
+}
+.icon-AWS-Cloud9_light-bg .path2:before {
+  content: "\ec66";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud9_light-bg .path3:before {
+  content: "\ec67";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CloudFormation_light-bg .path1:before {
+  content: "\ec68";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-CloudFormation_light-bg .path2:before {
+  content: "\ec69";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CloudHSM_light-bg .path1:before {
+  content: "\ec6a";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-CloudHSM_light-bg .path2:before {
+  content: "\ec6b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CloudHSM_light-bg .path3:before {
+  content: "\ec6c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CloudHSM_light-bg .path4:before {
+  content: "\ec6d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CloudHSM_light-bg .path5:before {
+  content: "\ec6e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CloudHSM_light-bg .path6:before {
+  content: "\ec6f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path1:before {
+  content: "\ec70";
+  color: rgb(105, 60, 197);
+}
+.icon-AWS-Cloud-Map_light-bg .path2:before {
+  content: "\ec71";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path3:before {
+  content: "\ec72";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path4:before {
+  content: "\ec73";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path5:before {
+  content: "\ec74";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path6:before {
+  content: "\ec75";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path7:before {
+  content: "\ec76";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path8:before {
+  content: "\ec77";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path9:before {
+  content: "\ec78";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path10:before {
+  content: "\ec79";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-Map_light-bg .path11:before {
+  content: "\ec7a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CloudTrail_light-bg .path1:before {
+  content: "\ec7b";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-CloudTrail_light-bg .path2:before {
+  content: "\ec7c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeBuild_light-bg .path1:before {
+  content: "\ec7d";
+  color: rgb(59, 72, 204);
+}
+.icon-AWS-CodeBuild_light-bg .path2:before {
+  content: "\ec7e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeBuild_light-bg .path3:before {
+  content: "\ec7f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeBuild_light-bg .path4:before {
+  content: "\ec80";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeBuild_light-bg .path5:before {
+  content: "\ec81";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeCommit_light-bg .path1:before {
+  content: "\ec82";
+  color: rgb(59, 72, 204);
+}
+.icon-AWS-CodeCommit_light-bg .path2:before {
+  content: "\ec83";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeCommit_light-bg .path3:before {
+  content: "\ec84";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeCommit_light-bg .path4:before {
+  content: "\ec85";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeCommit_light-bg .path5:before {
+  content: "\ec86";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeCommit_light-bg .path6:before {
+  content: "\ec87";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeCommit_light-bg .path7:before {
+  content: "\ec88";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeDeploy_light-bg .path1:before {
+  content: "\ec89";
+  color: rgb(59, 72, 204);
+}
+.icon-AWS-CodeDeploy_light-bg .path2:before {
+  content: "\ec8a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeDeploy_light-bg .path3:before {
+  content: "\ec8b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeDeploy_light-bg .path4:before {
+  content: "\ec8c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeDeploy_light-bg .path5:before {
+  content: "\ec8d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeDeploy_light-bg .path6:before {
+  content: "\ec8e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeDeploy_light-bg .path7:before {
+  content: "\ec8f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeDeploy_light-bg .path8:before {
+  content: "\ec90";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeDeploy_light-bg .path9:before {
+  content: "\ec91";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodePipeline_light-bg .path1:before {
+  content: "\ec92";
+  color: rgb(59, 72, 204);
+}
+.icon-AWS-CodePipeline_light-bg .path2:before {
+  content: "\ec93";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodePipeline_light-bg .path3:before {
+  content: "\ec94";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodePipeline_light-bg .path4:before {
+  content: "\ec95";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodePipeline_light-bg .path5:before {
+  content: "\ec96";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodePipeline_light-bg .path6:before {
+  content: "\ec97";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeStar_light-bg .path1:before {
+  content: "\ec98";
+  color: rgb(59, 72, 204);
+}
+.icon-AWS-CodeStar_light-bg .path2:before {
+  content: "\ec99";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeStar_light-bg .path3:before {
+  content: "\ec9a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeStar_light-bg .path4:before {
+  content: "\ec9b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeStar_light-bg .path5:before {
+  content: "\ec9c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeStar_light-bg .path6:before {
+  content: "\ec9d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeStar_light-bg .path7:before {
+  content: "\ec9e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeStar_light-bg .path8:before {
+  content: "\ec9f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeStar_light-bg .path9:before {
+  content: "\eca0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-CodeStar_light-bg .path10:before {
+  content: "\eca1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Command-Line-Interface_light-bg .path1:before {
+  content: "\eca2";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Command-Line-Interface_light-bg .path2:before {
+  content: "\eca3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Command-Line-Interface_light-bg .path3:before {
+  content: "\eca4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Command-Line-Interface_light-bg .path4:before {
+  content: "\eca5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Command-Line-Interface_light-bg .path5:before {
+  content: "\eca6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Command-Line-Interface_light-bg .path6:before {
+  content: "\eca7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Command-Line-Interface_light-bg .path7:before {
+  content: "\eca8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Command-Line-Interface_light-bg .path8:before {
+  content: "\eca9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Config_light-bg .path1:before {
+  content: "\ecaa";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Config_light-bg .path2:before {
+  content: "\ecab";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Config_light-bg .path3:before {
+  content: "\ecac";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Config_light-bg .path4:before {
+  content: "\ecad";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Config_light-bg .path5:before {
+  content: "\ecae";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Config_light-bg .path6:before {
+  content: "\ecaf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Config_light-bg .path7:before {
+  content: "\ecb0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Config_light-bg .path8:before {
+  content: "\ecb1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path1:before {
+  content: "\ecb2";
+  color: rgb(204, 34, 100);
+}
+.icon-AWS-Control-Tower_light-bg .path2:before {
+  content: "\ecb3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path3:before {
+  content: "\ecb4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path4:before {
+  content: "\ecb5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path5:before {
+  content: "\ecb6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path6:before {
+  content: "\ecb7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path7:before {
+  content: "\ecb8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path8:before {
+  content: "\ecb9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path9:before {
+  content: "\ecba";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path10:before {
+  content: "\ecbb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path11:before {
+  content: "\ecbc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path12:before {
+  content: "\ecbd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path13:before {
+  content: "\ecbe";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path14:before {
+  content: "\ecbf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path15:before {
+  content: "\ecc0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Control-Tower_light-bg .path16:before {
+  content: "\ecc1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-and-Usage-Report_light-bg .path1:before {
+  content: "\ecc2";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-Cost-and-Usage-Report_light-bg .path2:before {
+  content: "\ecc3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-and-Usage-Report_light-bg .path3:before {
+  content: "\ecc4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-and-Usage-Report_light-bg .path4:before {
+  content: "\ecc5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-and-Usage-Report_light-bg .path5:before {
+  content: "\ecc6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-and-Usage-Report_light-bg .path6:before {
+  content: "\ecc7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-and-Usage-Report_light-bg .path7:before {
+  content: "\ecc8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-and-Usage-Report_light-bg .path8:before {
+  content: "\ecc9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Explorer_light-bg .path1:before {
+  content: "\ecca";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-Cost-Explorer_light-bg .path2:before {
+  content: "\eccb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Explorer_light-bg .path3:before {
+  content: "\eccc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Explorer_light-bg .path4:before {
+  content: "\eccd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path1:before {
+  content: "\ecce";
+  color: rgb(63, 134, 36);
+}
+.icon-AWS-Cost-Management_light-bg .path2:before {
+  content: "\eccf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path3:before {
+  content: "\ecd0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path4:before {
+  content: "\ecd1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path5:before {
+  content: "\ecd2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path6:before {
+  content: "\ecd3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path7:before {
+  content: "\ecd4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path8:before {
+  content: "\ecd5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path9:before {
+  content: "\ecd6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path10:before {
+  content: "\ecd7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cost-Management_light-bg .path11:before {
+  content: "\ecd8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Database-Migration-Service_light-bg .path1:before {
+  content: "\ecd9";
+  color: rgb(28, 123, 104);
+}
+.icon-AWS-Database-Migration-Service_light-bg .path2:before {
+  content: "\ecda";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Database-Migration-Service_light-bg .path3:before {
+  content: "\ecdb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Database-Migration-Service_light-bg .path4:before {
+  content: "\ecdc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Database-Migration-Service_light-bg .path5:before {
+  content: "\ecdd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Database-Migration-Service_light-bg .path6:before {
+  content: "\ecde";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Data-Pipeline_light-bg .path1:before {
+  content: "\ecdf";
+  color: rgb(105, 60, 197);
+}
+.icon-AWS-Data-Pipeline_light-bg .path2:before {
+  content: "\ece0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DataSync_light-bg .path1:before {
+  content: "\ece1";
+  color: rgb(28, 123, 104);
+}
+.icon-AWS-DataSync_light-bg .path2:before {
+  content: "\ece2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Deep-Learning-AMIs_light-bg .path1:before {
+  content: "\ece3";
+  color: rgb(28, 123, 104);
+}
+.icon-AWS-Deep-Learning-AMIs_light-bg .path2:before {
+  content: "\ece4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DeepLens_light-bg .path1:before {
+  content: "\ece5";
+  color: rgb(28, 123, 104);
+}
+.icon-AWS-DeepLens_light-bg .path2:before {
+  content: "\ece6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DeepRacer_light-bg .path1:before {
+  content: "\ece7";
+  color: rgb(28, 123, 104);
+}
+.icon-AWS-DeepRacer_light-bg .path2:before {
+  content: "\ece8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DeepRacer_light-bg .path3:before {
+  content: "\ece9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DeepRacer_light-bg .path4:before {
+  content: "\ecea";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DeepRacer_light-bg .path5:before {
+  content: "\eceb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DeepRacer_light-bg .path6:before {
+  content: "\ecec";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DeepRacer_light-bg .path7:before {
+  content: "\eced";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DeepRacer_light-bg .path8:before {
+  content: "\ecee";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-DeepRacer_light-bg .path9:before {
+  content: "\ecef";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path1:before {
+  content: "\ecf0";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Device-Farm_light-bg .path2:before {
+  content: "\ecf1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path3:before {
+  content: "\ecf2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path4:before {
+  content: "\ecf3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path5:before {
+  content: "\ecf4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path6:before {
+  content: "\ecf5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path7:before {
+  content: "\ecf6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path8:before {
+  content: "\ecf7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path9:before {
+  content: "\ecf8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path10:before {
+  content: "\ecf9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path11:before {
+  content: "\ecfa";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path12:before {
+  content: "\ecfb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Device-Farm_light-bg .path13:before {
+  content: "\ecfc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Direct-Connect_light-bg .path1:before {
+  content: "\ecfd";
+  color: rgb(105, 60, 197);
+}
+.icon-AWS-Direct-Connect_light-bg .path2:before {
+  content: "\ecfe";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Direct-Connect_light-bg .path3:before {
+  content: "\ecff";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Direct-Connect_light-bg .path4:before {
+  content: "\ed00";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Direct-Connect_light-bg .path5:before {
+  content: "\ed01";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Direct-Connect_light-bg .path6:before {
+  content: "\ed02";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Directory-Service_light-bg .path1:before {
+  content: "\ed03";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Directory-Service_light-bg .path2:before {
+  content: "\ed04";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Directory-Service_light-bg .path3:before {
+  content: "\ed05";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Directory-Service_light-bg .path4:before {
+  content: "\ed06";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Directory-Service_light-bg .path5:before {
+  content: "\ed07";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Directory-Service_light-bg .path6:before {
+  content: "\ed08";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Elastic-Beanstalk_light-bg .path1:before {
+  content: "\ed09";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Elastic-Beanstalk_light-bg .path2:before {
+  content: "\ed0a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Elastic-Beanstalk_light-bg .path3:before {
+  content: "\ed0b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Elemental-MediaConnect_light-bg .path1:before {
+  content: "\ed0c";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Elemental-MediaConnect_light-bg .path2:before {
+  content: "\ed0d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Elemental-MediaConvert_light-bg .path1:before {
+  content: "\ed0e";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Elemental-MediaConvert_light-bg .path2:before {
+  content: "\ed0f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Elemental-MediaLive_light-bg .path1:before {
+  content: "\ed10";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Elemental-MediaLive_light-bg .path2:before {
+  content: "\ed11";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Elemental-MediaPackage_light-bg .path1:before {
+  content: "\ed12";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Elemental-MediaPackage_light-bg .path2:before {
+  content: "\ed13";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Elemental-MediaStore_light-bg .path1:before {
+  content: "\ed14";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Elemental-MediaStore_light-bg .path2:before {
+  content: "\ed15";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Elemental-MediaTailor_light-bg .path1:before {
+  content: "\ed16";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Elemental-MediaTailor_light-bg .path2:before {
+  content: "\ed17";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Fargate_light-bg .path1:before {
+  content: "\ed18";
+  color: rgb(216, 102, 19);
+}
+.icon-AWS-Fargate_light-bg .path2:before {
+  content: "\ed19";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Fargate_light-bg .path3:before {
+  content: "\ed1a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Fargate_light-bg .path4:before {
+  content: "\ed1b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Firewall-Manager_light-bg .path1:before {
+  content: "\ed1c";
+  color: rgb(214, 36, 45);
+}
+.icon-AWS-Firewall-Manager_light-bg .path2:before {
+  content: "\ed1d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Firewall-Manager_light-bg .path3:before {
+  content: "\ed1e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Firewall-Manager_light-bg .path4:before {
+  content: "\ed1f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Firewall-Manager_light-bg .path5:before {
+  content: "\ed20";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Firewall-Manager_light-bg .path6:before {
+  content: "\ed21";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Firewall-Manager_light-bg .path7:before {
+  content: "\ed22";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Firewall-Manager_light-bg .path8:before {
+  content: "\ed23";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path1:before {
+  content: "\ed24";
+  color: rgb(105, 60, 197);
+}
+.icon-AWS-Global-Accelerator_light-bg .path2:before {
+  content: "\ed25";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path3:before {
+  content: "\ed26";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path4:before {
+  content: "\ed27";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path5:before {
+  content: "\ed28";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path6:before {
+  content: "\ed29";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path7:before {
+  content: "\ed2a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path8:before {
+  content: "\ed2b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path9:before {
+  content: "\ed2c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path10:before {
+  content: "\ed2d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path11:before {
+  content: "\ed2e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path12:before {
+  content: "\ed2f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path13:before {
+  content: "\ed30";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Global-Accelerator_light-bg .path14:before {
+  content: "\ed31";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Glue_Crawlers_light-bg:before {
+  content: "\ed32";
+  color: #693cc5;
+}
+.icon-AWS-Glue_light-bg .path1:before {
+  content: "\ed33";
+  color: rgb(105, 60, 197);
+}
+.icon-AWS-Glue_light-bg .path2:before {
+  content: "\ed34";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Glue_light-bg .path3:before {
+  content: "\ed35";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Glue_light-bg .path4:before {
+  content: "\ed36";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Glue_light-bg .path5:before {
+  content: "\ed37";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Glue_light-bg .path6:before {
+  content: "\ed38";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path1:before {
+  content: "\ed39";
+  color: rgb(59, 72, 204);
+}
+.icon-AWS-Ground-Station_light-bg .path2:before {
+  content: "\ed3a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path3:before {
+  content: "\ed3b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path4:before {
+  content: "\ed3c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path5:before {
+  content: "\ed3d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path6:before {
+  content: "\ed3e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path7:before {
+  content: "\ed3f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path8:before {
+  content: "\ed40";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path9:before {
+  content: "\ed41";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path10:before {
+  content: "\ed42";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path11:before {
+  content: "\ed43";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path12:before {
+  content: "\ed44";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path13:before {
+  content: "\ed45";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Ground-Station_light-bg .path14:before {
+  content: "\ed46";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
