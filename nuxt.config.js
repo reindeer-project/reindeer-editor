@@ -77,7 +77,9 @@ module.exports = {
     '@/plugins/contextModelCDD.js',
     '@/plugins/authorModelCDD.js',
     '@/plugins/resourceModelACF.js',
-    '@/plugins/resourceMasterACF.js'
+    '@/plugins/resourceMasterACF.js',
+    '@/plugins/resourceModelGDM.js',
+    '@/plugins/resourceMasterGDM.js'
   ],
 
   /*
