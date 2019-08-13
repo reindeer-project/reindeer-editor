@@ -23,7 +23,7 @@ Vue.prototype.$resourceModelACF = (self,fileId,targetObject) => {
       var masterItem= master["types"][typeKey];
       var tmpObj={};
       tmpObj["key"]=fileId+"#/resources/"+key;
-      tmpObj["avatar"]="pr-1 resourceIcon icon icon-" + (masterItem["avatar"] ? masterItem["avatar"] : master["default"]["avatar"]);
+      tmpObj["avatar"]="iconACF " + "pr-1 resourceIcon icon icon-" + (masterItem["avatar"] ? masterItem["avatar"] : master["default"]["avatar"]);
       tmpObj["title"]=key;
       tmpObj["fileId"]=fileId;
       tmpObj["type"]=typeKey;

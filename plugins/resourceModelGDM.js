@@ -15,6 +15,7 @@
 *-------------------------------------------------------------------*/
 import Vue from 'vue'
 Vue.prototype.$resourceModelGDM = (self,fileId,targetObject) => {
+  console.log("GDM!")
   var resources={};
   var master=self.$resourceMasterGDM();
   targetObject["resources"].forEach(function(element){
@@ -24,8 +25,7 @@ Vue.prototype.$resourceModelGDM = (self,fileId,targetObject) => {
       var tmpObj={};
       tmpObj["key"]=fileId+"#/resources/"+element["name"];
       tmpObj["avatar"]="";
-
-      //tmpObj["avatar"]="pr-1 resourceIcon icon icon-" + (masterItem["avatar"] ? masterItem["avatar"] : master["default"]["avatar"]);
+      tmpObj["avatar"]="iconGDM " + "pr-1 resourceIcon icon icon-" + (masterItem["avatar"] ? masterItem["avatar"] : master["default"]["avatar"]);
       tmpObj["title"]=element["name"];
       tmpObj["fileId"]=fileId;
       tmpObj["type"]=typeKey;
@@ -37,16 +37,10 @@ Vue.prototype.$resourceModelGDM = (self,fileId,targetObject) => {
       tmpObj["reqRPSMax"]=0;
       tmpObj["resGBMin"]=0;
       tmpObj["resGBMax"]=0;
-/*
       tmpObj["provider"]=masterItem["provider"];
       tmpObj["visible"]=masterItem["visible"];
       tmpObj["passThrough"]=masterItem["passThrough"];
       tmpObj["networkWide"]=masterItem["networkWide"];
-*/
-      tmpObj["provider"]="";
-      tmpObj["visible"]=true;
-      tmpObj["passThrough"]=true;
-      tmpObj["networkWide"]=false;
       //References
       tmpObj["vpc"]="";
       tmpObj["zone"]="";

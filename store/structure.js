@@ -79,15 +79,15 @@ export const mutations = {
                 var tmpStructure=self.$resourceModelACF(self,prefixID,eachFile["dataObject"]);
                 structureObj["resources"] = Object.assign(structureObj["resources"], tmpStructure);
                 break;
+              case "gdm":
+                prefixID=eachFile["id"];
+                var tmpStructure=self.$resourceModelGDM(self,prefixID,eachFile["dataObject"]);
+                structureObj["resources"] = Object.assign(structureObj["resources"], tmpStructure);
+                break;
                 /*
               case "arm":
                 prefixID=eachFile["id"];
                 var tmpStructure=self.$resourceModelARM(self,prefixID,eachFile["dataObject"]);
-                structureObj["resources"] = Object.assign(structureObj["resources"], tmpStructure);
-                break;
-              case "gdm":
-                prefixID=eachFile["id"];
-                var tmpStructure=self.$resourceModelGDM(self,prefixID,eachFile["dataObject"]);
                 structureObj["resources"] = Object.assign(structureObj["resources"], tmpStructure);
                 break;
               case "aro":
