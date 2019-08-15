@@ -15,7 +15,6 @@
 *-------------------------------------------------------------------*/
 import Vue from 'vue'
 Vue.prototype.$resourceModelGDM = (self,fileId,targetObject) => {
-  console.log("GDM!")
   var resources={};
   var master=self.$resourceMasterGDM();
   targetObject["resources"].forEach(function(element){
