@@ -1,8 +1,9 @@
 <template>
   <v-app>
     <v-toolbar dense :clipped-left="clipped" :fixed="fixed" app>
-      <v-toolbar-title v-text="title" />
+      <v-toolbar-title v-text="title" class="p-2"  />
       <v-spacer />
+      <v-btn depressed text small color="gray" @click="goCDS()"><v-icon class="pr-1">school</v-icon>CDS 1.0</v-btn>
       <v-dialog v-model="dialog" scrollable max-width="300px">
         <template v-slot:activator="{ on }">
           <v-btn color="primary" small outline v-on="on">{{localeStr}}</v-btn>
@@ -107,6 +108,15 @@ export default {
         }else{
           window.location.href = "/"+code+"/";
         }
+    },
+    goCDS(){
+      switch(this.locale){
+        case "ja":
+          window.open("https://docs.reindeer.tech/index_ja.html","cddDocumentWindow");
+          break;
+        default:
+          window.open("https://docs.reindeer.tech","cddDocumentWindow");
+      }
     }
   }
 }
