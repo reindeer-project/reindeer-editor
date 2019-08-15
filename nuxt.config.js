@@ -62,7 +62,8 @@ module.exports = {
   */
   css: [
     '~/assets/style/app.styl',
-    '~/assets/iconACF/style.css'
+    '~/assets/iconACF/style.css',
+    '~/assets/iconGDM/style.css'
   ],
 
   /*
@@ -77,7 +78,9 @@ module.exports = {
     '@/plugins/contextModelCDD.js',
     '@/plugins/authorModelCDD.js',
     '@/plugins/resourceModelACF.js',
-    '@/plugins/resourceMasterACF.js'
+    '@/plugins/resourceMasterACF.js',
+    '@/plugins/resourceModelGDM.js',
+    '@/plugins/resourceMasterGDM.js'
   ],
 
   /*

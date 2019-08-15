@@ -2316,5 +2316,11 @@ export default {
         color: black;
         font-weight: bold;
       }
+      .iconACF{
+        font-family: "iconACF"!important;
+      }
+      .iconGDM{
+        font-family: "iconGDM"!important;
+      }
 </style>
 

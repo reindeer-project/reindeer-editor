@@ -1,17 +1,16 @@
 @font-face {
-  font-family: 'awsIcons';
-  src:  url('fonts/awsIcons.eot?5r0dze');
-  src:  url('fonts/awsIcons.eot?5r0dze#iefix') format('embedded-opentype'),
-    url('fonts/awsIcons.ttf?5r0dze') format('truetype'),
-    url('fonts/awsIcons.woff?5r0dze') format('woff'),
-    url('fonts/awsIcons.svg?5r0dze#awsIcons') format('svg');
+  font-family: 'iconACF';
+  src:  url('fonts/iconACF.eot?h2h9xx');
+  src:  url('fonts/iconACF.eot?h2h9xx#iefix') format('embedded-opentype'),
+    url('fonts/iconACF.ttf?h2h9xx') format('truetype'),
+    url('fonts/iconACF.woff?h2h9xx') format('woff'),
+    url('fonts/iconACF.svg?h2h9xx#iconACF') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+.icon {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'awsIcons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -3656,10 +3655,6 @@
 }
 .icon-Amazon-VPC_Internet-Gateway_light-bg:before {
   content: "\ebf4";
-  color: #693cc5;
-}
-.icon-Amazon-VPC_NAT-Gateway_light-bg:before {
-  content: "\ebf5";
   color: #693cc5;
 }
 .icon-Amazon-VPC_Network-Access-Control-List_light-bg:before {
