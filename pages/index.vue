@@ -1929,7 +1929,7 @@ export default {
         case "json":
           switch(this.currentCodeLang){
             case "cdd":
-              var modelUri = monaco.Uri.parse("https://reindeer.tech/cdd-schema/default.json");
+              var modelUri = monaco.Uri.parse("https://reindeer.tech/cdd-schema/v1/core-schema.json");
               var model=monaco.editor.getModel(modelUri);
               try{
                 if(!model){
@@ -1937,13 +1937,15 @@ export default {
                 }
                 var modelObj= {"uri":modelUri,"i18n":this.$t.bind(this)}
                 var schema= this.$reindeerSchemaCDD(modelObj);
+                this.$refs.editor.getMonaco().setModel(null);
                 monaco.languages.json.jsonDefaults.setDiagnosticsOptions(schema);
                 this.$refs.editor.getMonaco().setModel(model);
+
               }catch(e){
               }
               break;
             case "cddSnippet":
-              var modelUri = monaco.Uri.parse("https://reindeer.tech/cdd-schema/default.json");
+              var modelUri = monaco.Uri.parse("https://reindeer.tech/cdd-schema/v1/snippet-schema.json");
               var model=monaco.editor.getModel(modelUri);
               try{
                 if(!model){
@@ -1951,6 +1953,7 @@ export default {
                 }
                 var modelObj= {"uri":modelUri,"i18n":this.$t.bind(this)}
                 var schema= this.$reindeerSchemaCDDSnippet(modelObj);
+                this.$refs.editor.getMonaco().setModel(null);
                 monaco.languages.json.jsonDefaults.setDiagnosticsOptions(schema);
                 this.$refs.editor.getMonaco().setModel(model);
               }catch(e){
@@ -1963,7 +1966,7 @@ export default {
                 if(!model){
                   model=monaco.editor.createModel(this.code,this.currentCodeFmt,modelUri.toString())
                 }
-                var modelObj= {"uri":modelUri,"i18n":this.$t.bind(this)}
+                this.$refs.editor.getMonaco().setModel(null);
                 this.$refs.editor.getMonaco().setModel(model);
               }catch(e){
               }
@@ -1973,35 +1976,42 @@ export default {
         case "yaml":
           switch(this.currentCodeLang){
             case "cdd":
-              var modelUri = monaco.Uri.parse("https://reindeer.tech/cdd-schema/default.yaml");
+              var modelUri = monaco.Uri.parse("https://reindeer.tech/cdd-schema/v1/snippet-schema.yaml");
               var model=monaco.editor.getModel(modelUri);
               try{
                 if(!model){
                   model=monaco.editor.createModel(this.code,this.currentCodeFmt,modelUri.toString())
                 }
-                var modelObj= {"uri":modelUri,"i18n":this.$t.bind(this)}
-                var schema= this.$reindeerSchemaCDD(modelObj);
-                monaco.languages.yaml.jsonDefaults.setDiagnosticsOptions(schema);
+
                 this.$refs.editor.getMonaco().setModel(null);
                 this.$refs.editor.getMonaco().setModel(model);
               }catch(e){
               }
               break;
             case "cddSnippet":
-              var modelUri = monaco.Uri.parse("https://reindeer.tech/cdd-schema/default.yaml");
+              var modelUri = monaco.Uri.parse("https://reindeer.tech/cdd-schema/v1/snippet-schema.yaml");
               var model=monaco.editor.getModel(modelUri);
               try{
                 if(!model){
                   model=monaco.editor.createModel(this.code,this.currentCodeFmt,modelUri.toString())
                 }
-                var modelObj= {"uri":modelUri,"i18n":this.$t.bind(this)}
-                var schema= this.$reindeerSchemaCDDSnippet(modelObj);
-                monaco.languages.yaml.jsonDefaults.setDiagnosticsOptions(schema);
                 this.$refs.editor.getMonaco().setModel(null);
                 this.$refs.editor.getMonaco().setModel(model);
               }catch(e){
               }
               break;
+            default:
+              var modelUri = monaco.Uri.parse("https://reindeer.tech/other-schema/default.yaml");
+              var model=monaco.editor.getModel(modelUri);
+              try{
+                if(!model){
+                  model=monaco.editor.createModel(this.code,this.currentCodeFmt,modelUri.toString())
+                }
+                this.$refs.editor.getMonaco().setModel(null);
+                this.$refs.editor.getMonaco().setModel(model);
+              }catch(e){
+              }
+              break;  
           }
           break;
       }
