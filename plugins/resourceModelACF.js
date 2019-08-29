@@ -35,6 +35,10 @@ Vue.prototype.$resourceModelACF = (self,fileId,targetObject) => {
       tmpObj["reqRPSMax"]=0;
       tmpObj["resGBMin"]=0;
       tmpObj["resGBMax"]=0;
+      tmpObj["reqMin"]=0;
+      tmpObj["reqMax"]=0;
+      tmpObj["reqMin"]=0;
+      tmpObj["reqMax"]=0;
       tmpObj["provider"]=masterItem["provider"];
       tmpObj["visible"]=masterItem["visible"];
       tmpObj["passThrough"]=masterItem["passThrough"];

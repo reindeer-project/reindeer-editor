@@ -26,19 +26,19 @@
 
               <v-list-tile-title class="definedOnContext pr-2">
                 <v-spacer></v-spacer>
-                Throughput from the trigger: {{item.externalTraffic.reqRPSMin}}~{{item.externalTraffic.reqRPSMax}}rps
+                Throughput from the trigger: {{numberFormat(item.externalTraffic.reqRPSMin,2)}}~{{numberFormat(item.externalTraffic.reqRPSMax,2)}}rps
               </v-list-tile-title>
               <v-list-tile-title class="definedOnContext pr-2">
                 <v-spacer></v-spacer>
-                IN (from actors):  {{item.externalTraffic.reqGBMin}}~{{item.externalTraffic.reqGBMax}}GB/Month
+                IN (from actors):  {{numberFormat(item.externalTraffic.reqGBMin,1)}}~{{numberFormat(item.externalTraffic.reqGBMax,1)}}GB/Month
               </v-list-tile-title>
               <v-list-tile-title class="definedOnContext pr-2">
                 <v-spacer></v-spacer>
-                OUT (to actors): {{item.externalTraffic.resGBMin}}~{{item.externalTraffic.resGBMax}}GB/Month
+                OUT (to actors): {{numberFormat(item.externalTraffic.resGBMin,1)}}~{{numberFormat(item.externalTraffic.resGBMax,1)}}GB/Month
               </v-list-tile-title>
               <v-list-tile-title class="definedOnContext pr-2">
                 <v-spacer></v-spacer>
-                Storage: {{item.storedDBMin}}~{{item.storedDBMax}}GB/Month
+                Storage: {{numberFormat(item.storedDBMin,1)}}~{{numberFormat(item.storedDBMax,1)}}GB/Month
               </v-list-tile-title>
           </v-list-tile-content>
         </template>
@@ -105,6 +105,15 @@ export default {
     // Reset the panel
     none () {
       this.panel = []
+    },
+    numberFormat(val,len){
+      try{
+        var v=Math.floor( val * Math.pow( 10, len ) ) / Math.pow( 10, len ) ;
+        var r=v.toLocaleString();
+      }catch{
+        var r=0;
+      }
+      return r;
     }
   }  
 }
