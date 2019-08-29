@@ -37,15 +37,19 @@
               </v-list-tile-title>
               <v-list-tile-title v-if="item.defined.length>0" class="definedOnContext pr-2">
                 <v-spacer></v-spacer>
-                Throughput: {{item.reqRPSMin}}~{{item.reqRPSMax}}rps
+                Throughput: {{numberFormat(item.reqRPSMin,2)}}~{{numberFormat(item.reqRPSMax,2)}}rps
               </v-list-tile-title>
               <v-list-tile-title v-if="item.defined.length>0" class="definedOnContext pr-2">
                 <v-spacer></v-spacer>
-                IN:  {{item.reqGBMin}}~{{item.reqGBMax}}GB/Month
+                IN:  {{numberFormat(item.reqGBMin,1)}}~{{numberFormat(item.reqGBMax,1)}}GB/Month<br>
               </v-list-tile-title>
               <v-list-tile-title v-if="item.defined.length>0" class="definedOnContext pr-2">
                 <v-spacer></v-spacer>
-                OUT: {{item.resGBMin}}~{{item.resGBMax}}GB/Month
+                OUT: {{numberFormat(item.resGBMin,1)}}~{{numberFormat(item.resGBMax,1)}}GB/Month
+              </v-list-tile-title>
+              <v-list-tile-title v-if="item.defined.length>0" class="definedOnContextSmall pr-2">
+                <v-spacer></v-spacer>
+                Requests:  {{numberFormat(item.reqMin,0)}}~{{numberFormat(item.reqMax,0)}}/Month<br>
               </v-list-tile-title>
           </v-list-tile-content>
 
@@ -141,6 +145,15 @@ export default {
       // Reset the panel
     none () {
       this.panel = []
+    },
+    numberFormat(val,len){
+      try{
+        var v=Math.floor( val * Math.pow( 10, len ) ) / Math.pow( 10, len ) ;
+        var r=v.toLocaleString();
+      }catch{
+        var r=0;
+      }
+      return r;
     }
   }  
 }
@@ -174,6 +187,10 @@ export default {
       .definedOnContext{
         font-size: 14px;
         font-weight: bold;
+        text-align: right;
+      }
+      .definedOnContextSmall{
+        font-size: 11px;
         text-align: right;
       }
       .undefinedOnContext{

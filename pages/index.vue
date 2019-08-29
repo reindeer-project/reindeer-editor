@@ -576,6 +576,15 @@ export default {
   },
 
   methods: {
+    numberFormat(val,len){
+      try{
+        var v=Math.floor( val * Math.pow( 10, len ) ) / Math.pow( 10, len ) ;
+        var r=v.toLocaleString();
+      }catch{
+        var r=0;
+      }
+      return r;
+    },
     drawNode(self,drawObj,child){
         var itemX=150;
         var itemHeight=20;
@@ -764,6 +773,8 @@ export default {
                 self.structure.resources[eachEnd["$ref"]]["reqRPSMax"]=Math.round((self.structure.resources[eachEnd["$ref"]]["reqRPSMax"]+child.reqRPSMax)*10)/10;
                 self.structure.resources[eachEnd["$ref"]]["resGBMin"]=Math.round((self.structure.resources[eachEnd["$ref"]]["resGBMin"]+child.resGBMin)*10)/10;
                 self.structure.resources[eachEnd["$ref"]]["resGBMax"]=Math.round((self.structure.resources[eachEnd["$ref"]]["resGBMax"]+child.resGBMax)*10)/10;
+                self.structure.resources[eachEnd["$ref"]]["reqMin"]=Math.round((self.structure.resources[eachEnd["$ref"]]["reqMin"]+child.reqMin)*10)/10;
+                self.structure.resources[eachEnd["$ref"]]["reqMax"]=Math.round((self.structure.resources[eachEnd["$ref"]]["reqMax"]+child.reqMax)*10)/10;
                 self.structure.resources[eachEnd["$ref"]]["defined"].push({"key":child.uri,"context":child.context,"id":child.id});
                 self.structure.resources[eachEnd["$ref"]]["definedFlg"][child.uri]=true;
                 self.structure.definedResources[eachEnd["$ref"]]=true;
@@ -783,6 +794,8 @@ export default {
                   self.structure.resources[child.obj.obj.start["$ref"]]["reqGBMax"]=Math.round((self.structure.resources[child.obj.obj.start["$ref"]]["reqGBMax"]+child.resGBMax)*10)/10; //OUT is source's IN
                   self.structure.resources[child.obj.obj.start["$ref"]]["resGBMin"]=Math.round((self.structure.resources[child.obj.obj.start["$ref"]]["resGBMin"]+child.reqGBMin)*10)/10; //IN is source's OUT
                   self.structure.resources[child.obj.obj.start["$ref"]]["resGBMax"]=Math.round((self.structure.resources[child.obj.obj.start["$ref"]]["resGBMax"]+child.reqGBMax)*10)/10; //IN is source's OUT
+                  self.structure.resources[child.obj.obj.start["$ref"]]["reqMin"]=Math.round((self.structure.resources[child.obj.obj.start["$ref"]]["reqMin"]+child.reqMin)*10)/10; //OUT is source's IN
+                  self.structure.resources[child.obj.obj.start["$ref"]]["reqMax"]=Math.round((self.structure.resources[child.obj.obj.start["$ref"]]["reqMax"]+child.reqMax)*10)/10; //OUT is source's IN
                   self.structure.resources[child.obj.obj.start["$ref"]]["defined"].push({"key":child.uri+"(External)","context":child.context,"id":"Source of "+child.id});
                   self.structure.resources[child.obj.obj.start["$ref"]]["definedFlg"][child.uri+"(External)"]=true;
                   self.structure.definedResources[child.obj.obj.start["$ref"]]=true;
@@ -796,6 +809,7 @@ export default {
                       if(self.structure.resources[eachParentsEnd["$ref"]]){
                         if(!self.structure.resources[eachParentsEnd["$ref"]]["definedFlg"][child.uri+"(External)"]){
                           //CAUTION: I/O is reversed for traffic to response (req + res is not the mistake)
+                          //No need to calcurate reqMin, reqMax
                           self.structure.resources[eachParentsEnd["$ref"]]["reqGBMin"]=Math.round((self.structure.resources[eachParentsEnd["$ref"]]["reqGBMin"]+child.resGBMin)*10)/10; //OUT is source's IN
                           self.structure.resources[eachParentsEnd["$ref"]]["reqGBMax"]=Math.round((self.structure.resources[eachParentsEnd["$ref"]]["reqGBMax"]+child.resGBMax)*10)/10; //OUT is source's IN
                           self.structure.resources[eachParentsEnd["$ref"]]["resGBMin"]=Math.round((self.structure.resources[eachParentsEnd["$ref"]]["resGBMin"]+child.reqGBMin)*10)/10; //IN is source's OUT
@@ -811,6 +825,7 @@ export default {
             }
             //Append external traffic summary (From actor to resource traffic only)
             //CAUTION: I/O is reversed for traffic to response (req + res is not the mistake)
+            //No need to calcurate reqMin, reqMax
             if(self.structure.actors[eachEnd["$ref"]] && self.structure.contexts[drawObj.id]){
               self.structure.contexts[drawObj.id]["externalTraffic"]["reqGBMin"]=Math.round((self.structure.contexts[drawObj.id]["externalTraffic"]["reqGBMin"]+child.resGBMin)*10)/10; //OUT is source's IN
               self.structure.contexts[drawObj.id]["externalTraffic"]["reqGBMax"]=Math.round((self.structure.contexts[drawObj.id]["externalTraffic"]["reqGBMax"]+child.resGBMax)*10)/10; //OUT is source's IN
@@ -835,6 +850,8 @@ export default {
                   self.structure.contexts[drawObj.id]["externalTraffic"]["reqRPSMax"]=Math.round((self.structure.contexts[drawObj.id]["externalTraffic"]["reqRPSMax"]+child.reqRPSMax)*10)/10;
                   self.structure.contexts[drawObj.id]["externalTraffic"]["resGBMin"]=Math.round((self.structure.contexts[drawObj.id]["externalTraffic"]["resGBMin"]+child.resGBMin)*10)/10;
                   self.structure.contexts[drawObj.id]["externalTraffic"]["resGBMax"]=Math.round((self.structure.contexts[drawObj.id]["externalTraffic"]["resGBMax"]+child.resGBMax)*10)/10;
+                  self.structure.contexts[drawObj.id]["externalTraffic"]["reqMin"]=Math.round((self.structure.contexts[drawObj.id]["externalTraffic"]["reqGBMin"]+child.reqGBMin)*10)/10;
+                  self.structure.contexts[drawObj.id]["externalTraffic"]["reqMax"]=Math.round((self.structure.contexts[drawObj.id]["externalTraffic"]["reqGBMax"]+child.reqGBMax)*10)/10;
                 }
               }
             }
@@ -940,8 +957,8 @@ export default {
           var panelHight=20;
           var transparent="rgb(250,0,0,0)";
           option={"avatar":"", 
-            "title1":"IN: "+child.reqGBMin+"~"+child.reqGBMax+"GB/M,  "+child.reqRPSMin+"~"+child.reqRPSMax+"rps",
-            "title2":"OUT: "+child.resGBMin+"~"+child.resGBMax+"GB/M",
+            "title1":"IN: "+self.numberFormat(child.reqGBMin,1)+"~"+self.numberFormat(child.reqGBMax,1)+"GB/M,  "+self.numberFormat(child.reqRPSMin,1)+"~"+self.numberFormat(child.reqRPSMax,1)+"rps",
+            "title2":"OUT: "+self.numberFormat(child.resGBMin,1)+"~"+self.numberFormat(child.resGBMax,1)+"GB/M",
             "title3":"",
             "titleColor":'black',"titleClass":""
           }
@@ -1012,8 +1029,8 @@ export default {
           var panelHight=20;
           var transparent="rgb(250,0,0,0)";
           option={"avatar":"", 
-            "title1":"IN: "+child.reqGBMin+"~"+child.reqGBMax+"GB/M,  "+child.reqRPSMin+"~"+child.reqRPSMax+"rps",
-            "title2":"OUT: "+child.resGBMin+"~"+child.resGBMax+"GB/M",
+            "title1":"IN: "+self.numberFormat(child.reqGBMin,1)+"~"+self.numberFormat(child.reqGBMax,1)+"GB/M,  "+self.numberFormat(child.reqRPSMin,1)+"~"+self.numberFormat(child.reqRPSMax,1)+"rps",
+            "title2":"OUT: "+self.numberFormat(child.resGBMin,1)+"~"+self.numberFormat(child.resGBMax,1)+"GB/M",
             "title3":"",
             "titleColor":'black',"titleClass":""
           }
@@ -1396,14 +1413,14 @@ export default {
                     var g={"min":child.obj.obj.kbPage.min,"max":child.obj.obj.kbPage.max};
                     var h={"min":child.obj.obj.kbPost.min,"max":child.obj.obj.kbPost.max};
                     child.triggerTitles=[
-                      "a PV(Page view): "+users*b.min*30*d.min+"~"+users*b.max*30*d.max,
-                      "b DAU(Daily active user): "+b.min*100+"~"+b.max*100+"%",
-                      "c Busy hours per day: "+c.min+"~"+c.max,
-                      "d Pages per visit: "+d.min+"~"+d.max,
-                      "e Requests per page: "+e.min+"~"+e.max,
-                      "f Posts per visit: "+f.min*100+"~"+f.max*100+"%",
-                      "g Size per page: "+g.min+"~"+g.max+"KB",
-                      "h Size per POST: "+h.min+"~"+h.max+"KB"
+                      "a PV(Page view): "+self.numberFormat(users*b.min*30*d.min,0)+"~"+self.numberFormat(users*b.max*30*d.max,0),
+                      "b DAU(Daily active user): "+self.numberFormat(b.min*100,0)+"~"+self.numberFormat(b.max*100,0)+"%",
+                      "c Busy hours per day: "+self.numberFormat(c.min,0)+"~"+self.numberFormat(c.max,0),
+                      "d Pages per visit: "+self.numberFormat(d.min,0)+"~"+self.numberFormat(d.max,0),
+                      "e Requests per page: "+self.numberFormat(e.min,0)+"~"+self.numberFormat(e.max,0),
+                      "f Posts per visit: "+self.numberFormat(f.min*100,0)+"~"+self.numberFormat(f.max*100,0)+"%",
+                      "g Size per page: "+self.numberFormat(g.min,0)+"~"+self.numberFormat(g.max,0)+"KB",
+                      "h Size per POST: "+self.numberFormat(h.min,0)+"~"+self.numberFormat(h.max,0)+"KB"
                     ];
                     child.reqGBMin=Math.round(users*b.min*30*f.min*h.min/1024/1024*10)/10;
                     child.reqGBMax=Math.round(users*b.max*30*f.max*h.max/1024/1024*10)/10;
@@ -1411,14 +1428,16 @@ export default {
                     child.reqRPSMax=Math.round(users*b.max/24/60/60/(c.min/24)*d.max*e.max*10)/10;
                     child.resGBMin=Math.round(users*b.min*30*d.min*g.min/1024/1024*10)/10;
                     child.resGBMax=Math.round(users*b.max*30*d.max*g.max/1024/1024*10)/10;
+                    child.reqMin=Math.round(users*b.min*30*d.min*e.min*10)/10;
+                    child.reqMax=Math.round(users*b.max*30*d.max*e.max*10)/10;
                   }
                   break;
                 case "timedAction":
                   child.triggerTitles=[
-                    "a Requests: "+child.obj.obj.reqMonth.min+"~"+child.obj.obj.reqMonth.max+"/Month",
-                    "b Throughput: "+child.obj.obj.onlineRps.min+"~"+child.obj.obj.onlineRps.max+"rps",
-                    "c Size per request: "+child.obj.obj.kbRequest.min+"~"+child.obj.obj.kbRequest.max,
-                    "d Size per response: "+child.obj.obj.kbResponse.min+"~"+child.obj.obj.kbResponse.max
+                    "a Requests: "+self.numberFormat(child.obj.obj.reqMonth.min,0)+"~"+self.numberFormat(child.obj.obj.reqMonth.max,0)+"/Month",
+                    "b Throughput: "+self.numberFormat(child.obj.obj.onlineRps.min,2)+"~"+self.numberFormat(child.obj.obj.onlineRps.max,2)+"rps",
+                    "c Size per request: "+self.numberFormat(child.obj.obj.kbRequest.min,0)+"~"+self.numberFormat(child.obj.obj.kbRequest.max,0),
+                    "d Size per response: "+self.numberFormat(child.obj.obj.kbResponse.min,0)+"~"+self.numberFormat(child.obj.obj.kbResponse.max,0)
                   ];
                   child.reqGBMin=Math.round(child.obj.obj.reqMonth.min*child.obj.obj.kbRequest.min/1024/1024*10)/10;
                   child.reqGBMax=Math.round(child.obj.obj.reqMonth.max*child.obj.obj.kbRequest.max/1024/1024*10)/10;
@@ -1426,6 +1445,8 @@ export default {
                   child.reqRPSMax=Math.round(child.obj.obj.onlineRps.max*10)/10;
                   child.resGBMin=Math.round(child.obj.obj.reqMonth.min*child.obj.obj.kbResponse.min/1024/1024*10)/10;
                   child.resGBMax=Math.round(child.obj.obj.reqMonth.max*child.obj.obj.kbResponse.max/1024/1024*10)/10;
+                  child.reqMin=Math.round(child.obj.obj.reqMonth.min*10)/10;
+                  child.reqMax=Math.round(child.obj.obj.reqMonth.max*10)/10;
                   break;
                 default:
                   child.triggerTitles=[];
@@ -1435,6 +1456,8 @@ export default {
                   child.reqRPSMax=0;
                   child.resGBMin=0;
                   child.resGBMax=0;
+                  child.reqMin=0;
+                  child.reqMax=0;
                   break;
               }
             }else{
@@ -1446,6 +1469,8 @@ export default {
                   child.reqRPSMax=Math.round(child.obj.obj.passThroughReqRatio.max*child.parent.reqRPSMax*10)/10;
                   child.resGBMin=Math.round(child.obj.obj.compositResRatio.min*child.parent.resGBMin*10)/10;
                   child.resGBMax=Math.round(child.obj.obj.compositResRatio.max*child.parent.resGBMax*10)/10;
+                  child.reqMin=Math.round(child.obj.obj.passThroughReqRatio.min*child.parent.reqMin*10)/10;
+                  child.reqMax=Math.round(child.obj.obj.passThroughReqRatio.max*child.parent.reqMax*10)/10;
                   break;
                 default:
                   child.reqGBMin=0;
@@ -1454,6 +1479,8 @@ export default {
                   child.reqRPSMax=0;
                   child.resGBMin=0;
                   child.resGBMax=0;
+                  child.reqMin=0;
+                  child.reqMax=0;
                   break;
               }
             }
@@ -1522,8 +1549,8 @@ export default {
           var a=createGround(areaX, areaY,"rgba(229, 228, 228, 0.5)", new THREE.Vector3( areaX/2-itemSize+50, fluctuationPerContext-itemHeight-2, areaY/2-itemSize+10 ), new THREE.Euler( - 90 * THREE.Math.DEG2RAD, 0, 0 ));
           var b=createGround(areaX, areaY,"rgba(255,255,255,0.5)", new THREE.Vector3( areaX/2-itemSize+50, fluctuationPerContext-itemHeight, areaY/2-itemSize+10 ), new THREE.Euler( - 90 * THREE.Math.DEG2RAD, 0, 0 ));
           createPlane(areaX*3, areaY*3, transparent, new THREE.Vector3( areaX/2-itemSize+50, fluctuationPerContext, areaY/2-itemSize+50 ), new THREE.Euler( - 90 * THREE.Math.DEG2RAD, 0, 0 ));
-
-          createPlane(400, areaY,"#B0BEC5", new THREE.Vector3( -400, 0, 0), new THREE.Euler( 0, 0, 0 ));
+          // Field Background Panel
+          createPlane(1600, areaY,"#B0BEC5", new THREE.Vector3( -1000, 0, 0), new THREE.Euler( 0, 0, 0 ));
           var option={"titleColor":"white","titles":[{"txt":drawObj.counter,"size":"100px"},{"txt":"Trigger ","size":"20px"},{"txt":"and ","size":"20px"},{"txt":"Traffics ","size":"20px"}]}
           createMultiLine(300, 300,transparent,1,new THREE.Vector3( -400,1,0 ),new THREE.Euler( 0, 0, 0 ), option);
 
