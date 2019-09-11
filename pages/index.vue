@@ -28,8 +28,10 @@
             :class="item.id === currentCodeID ? 'activeCodeItem' : ''">
                 <v-list-tile avatar ripple @click="selectCodeItem(item.id)"
                  :class="item.id === currentCodeID ? 'activeCodeItem' : ''">
-                  <v-list-tile-avatar>
-                    <v-icon>{{ convertCodeTypeForDisplay(item.fmt,item.lang)["avatar"] }}</v-icon>
+                  <v-list-tile-avatar class="formatIcon">
+                    <span v-bind:class="convertCodeTypeForDisplay(item.fmt,item.lang)['avatar']">
+                      <span class="path1" /><span class="path2" /><span class="path3" /><span class="path4" /><span class="path5" /><span class="path6" /><span class="path7" /><span class="path8" /><span class="path9" /><span class="path10" /> 
+                    </span>
                   </v-list-tile-avatar>
                   <v-list-tile-content>
                     <v-list-tile-title>{{ rootDocumentFileName }}</v-list-tile-title>
@@ -56,8 +58,10 @@
             :class="item.id === currentCodeID ? 'activeCodeItem' : ''">
                 <v-list-tile avatar ripple @click="selectCodeItem(item.id)"
                  :class="item.id === currentCodeID ? 'activeCodeItem' : ''">
-                  <v-list-tile-avatar>
-                    <v-icon>{{ convertCodeTypeForDisplay(item.fmt,item.lang)["avatar"] }}</v-icon>
+                  <v-list-tile-avatar class="formatIcon">
+                  <span v-bind:class="convertCodeTypeForDisplay(item.fmt,item.lang)['avatar']">
+                    <span class="path1" /><span class="path2" /><span class="path3" /><span class="path4" /><span class="path5" /><span class="path6" /><span class="path7" /><span class="path8" /><span class="path9" /><span class="path10" /> 
+                  </span>
                   </v-list-tile-avatar>
                   <v-list-tile-content>
                     <v-list-tile-title>{{ item.id }}</v-list-tile-title>
@@ -84,8 +88,10 @@
             :class="item.id === currentCodeID ? 'activeCodeItem' : ''">
                 <v-list-tile avatar ripple @click="selectCodeItem(item.id)"
                  :class="item.id === currentCodeID ? 'activeCodeItem' : ''">
-                  <v-list-tile-avatar>
-                    <v-icon>{{ convertCodeTypeForDisplay(item.fmt,item.lang)["avatar"] }}</v-icon>
+                  <v-list-tile-avatar class="formatIcon">
+                    <span v-bind:class="convertCodeTypeForDisplay(item.fmt,item.lang)['avatar']">
+                      <span class="path1" /><span class="path2" /><span class="path3" /><span class="path4" /><span class="path5" /><span class="path6" /><span class="path7" /><span class="path8" /><span class="path9" /><span class="path10" /> 
+                    </span>
                   </v-list-tile-avatar>
                   <v-list-tile-content>
                     <v-list-tile-title>{{ item.id }}</v-list-tile-title>
@@ -1354,18 +1360,33 @@ export default {
                 var avatar3 = document.createElement( 'span' );
                 var avatar4 = document.createElement( 'span' );
                 var avatar5 = document.createElement( 'span' );
+                var avatar6 = document.createElement( 'span' );
+                var avatar7 = document.createElement( 'span' );
+                var avatar8 = document.createElement( 'span' );
+                var avatar9 = document.createElement( 'span' );
+                var avatar10 = document.createElement( 'span' );
                 avatar.className=eachavatar.class;
                 avatar1.className="path1";
                 avatar2.className="path2";
                 avatar3.className="path3";
                 avatar4.className="path4";
                 avatar5.className="path5";
+                avatar6.className="path6";
+                avatar7.className="path7";
+                avatar8.className="path8";
+                avatar9.className="path9";
+                avatar10.className="path10";
                 avatar.style.color=option.avatarColor;
                 avatar.appendChild(avatar1);
                 avatar.appendChild(avatar2);
                 avatar.appendChild(avatar3);
                 avatar.appendChild(avatar4);
                 avatar.appendChild(avatar5);
+                avatar.appendChild(avatar6);
+                avatar.appendChild(avatar7);
+                avatar.appendChild(avatar8);
+                avatar.appendChild(avatar9);
+                avatar.appendChild(avatar10);
                 element.appendChild(avatar);
               }else{
                 var iconObj = document.createElement( 'span' ); 
@@ -2251,6 +2272,9 @@ export default {
 </script>
 
 <style>
+      .formatIcon{
+        font-size: 25px;
+      }
       .dialogHeader{
         color:white;
         background-color:#9FA8DA!important;
@@ -2358,6 +2382,9 @@ export default {
       }
       .iconGDM{
         font-family: "iconGDM"!important;
+      }
+      .iconReindeer{
+        font-family: "iconReindeer"!important; 
       }
 </style>
 

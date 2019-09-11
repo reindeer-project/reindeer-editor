@@ -63,7 +63,8 @@ module.exports = {
   css: [
     '~/assets/style/app.styl',
     '~/assets/iconACF/style.css',
-    '~/assets/iconGDM/style.css'
+    '~/assets/iconGDM/style.css',
+    '~/assets/iconReindeer/style.css'
   ],
 
   /*

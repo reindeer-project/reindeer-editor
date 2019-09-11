@@ -20,7 +20,9 @@
       <v-expansion-panel-content v-for="(item,key) in this.resources" :key="key">
         <template v-slot:header>
           <v-list-tile-avatar>
-            <span v-bind:class="item.avatar"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></span>
+            <span v-bind:class="item.avatar">
+              <span class="path1" /><span class="path2" /><span class="path3" /><span class="path4" /><span class="path5" /><span class="path6" /><span class="path7" /><span class="path8" /><span class="path9" /><span class="path10" />            
+            </span>
           </v-list-tile-avatar>
 
           <v-list-tile-content class="panelHeadArea">
