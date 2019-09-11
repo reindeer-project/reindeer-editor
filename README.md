@@ -28,29 +28,7 @@ yarn generate
 
 Access to dist directory
 
-
-## Current Version - 0.2.1
-
-The current version of Reindeer Editor is 0.2.1
-- Fix the bug loading incorrect editor's model.
-
-### Future Versions
-
-Not yet.
-
-### Previous Versions
-
-0.2.0
-- Add support for Google Cloud Deployment Manager.
-
-0.1.0 is the initial version of Reindeer Editor.
-
-## Tools and Libraries
-
-Not yet.
-
 ## Licensing
 
 See: [License (Apache-2.0)](https://github.com/reindeer-project/CloudDesign-Specification/blob/master/LICENSE)
 
-![Analytics](https://ga-beacon.appspot.com/UA-119014319-4/readme.md?pixel)
