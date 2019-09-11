@@ -17,7 +17,7 @@ import Vue from 'vue'
 Vue.prototype.$resourceMasterACF =() => {
   var master={
     "default":{
-      "avatar":"AWS-General_AWS-Cloud_light-bg"
+      "avatar":"AWS-Cloud-alt_light-bg"
     },
     "types":{
       "Alexa::ASK::Skill":{"provider":"aws","avatar":"Alexa-For-Business_light-bg","visible":1,"passThrough":0,"networkWide":0,"vpc":0,"zone":0,"subnet":0,"security":0},

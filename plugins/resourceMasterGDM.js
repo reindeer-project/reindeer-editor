@@ -17,7 +17,7 @@ import Vue from 'vue'
 Vue.prototype.$resourceMasterGDM =() => {
   var master={
     "default":{
-      "avatar":"Blue-Hexagon"
+      "avatar":"GCP-Generic-GCP"
     },
     "types":{
       "appengine.v1.version":{"provider":"gcp","avatar":"GCP-App-Engine","visible":1,"passThrough":1,"networkWide":0,"vpc":0,"zone":0,"subnet":0,"security":0},
@@ -27,8 +27,8 @@ Vue.prototype.$resourceMasterGDM =() => {
       "bigtableadmin.v2.instance.table":{"provider":"gcp","avatar":"GCP-Cloud-Bigtable","visible":0,"passThrough":0,"networkWide":0,"vpc":0,"zone":0,"subnet":0,"security":0},
       "cloudfunctions.v1beta2.function":{"provider":"gcp","avatar":"GCP-Cloud-Functions","visible":1,"passThrough":1,"networkWide":0,"vpc":0,"zone":0,"subnet":0,"security":0},
       "cloudresourcemanager.v1.project":{"provider":"gcp","avatar":"GCP-Cloud-Resource-Manager","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
-      "clouduseraccounts.beta.group":{"provider":"gcp","avatar":"GCP-Blue-Hexagon","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
-      "clouduseraccounts.beta.user":{"provider":"gcp","avatar":"GCP-Blue-Hexagon","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
+      "clouduseraccounts.beta.group":{"provider":"gcp","avatar":"GCP-Generic-GCP","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
+      "clouduseraccounts.beta.user":{"provider":"gcp","avatar":"GCP-Generic-GCP","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
       "compute.beta.address":{"provider":"gcp","avatar":"GCP-Compute-Engine","visible":1,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
       "compute.beta.autoscaler":{"provider":"gcp","avatar":"GCP-Compute-Engine","visible":1,"passThrough":1,"networkWide":0,"vpc":0,"zone":0,"subnet":0,"security":0},
       "compute.beta.backendBucket":{"provider":"gcp","avatar":"GCP-Compute-Engine","visible":1,"passThrough":1,"networkWide":0,"vpc":0,"zone":0,"subnet":0,"security":0},
@@ -108,9 +108,9 @@ Vue.prototype.$resourceMasterGDM =() => {
       "logging.v2.sink":{"provider":"gcp","avatar":"GCP-Logging","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
       "pubsub.v1.subscription":{"provider":"gcp","avatar":"GCP-Cloud-PubSub","visible":1,"passThrough":1,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
       "pubsub.v1.topic":{"provider":"gcp","avatar":"GCP-Cloud-PubSub","visible":1,"passThrough":1,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
-      "runtimeconfig.v1beta1.config":{"provider":"gcp","avatar":"GCP-Blue-Hexagon","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
-      "runtimeconfig.v1beta1.variable":{"provider":"gcp","avatar":"GCP-Blue-Hexagon","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
-      "runtimeconfig.v1beta1.waiter":{"provider":"gcp","avatar":"GCP-Blue-Hexagon","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
+      "runtimeconfig.v1beta1.config":{"provider":"gcp","avatar":"GCP-Generic-GCP","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
+      "runtimeconfig.v1beta1.variable":{"provider":"gcp","avatar":"GCP-Generic-GCP","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
+      "runtimeconfig.v1beta1.waiter":{"provider":"gcp","avatar":"GCP-Generic-GCP","visible":0,"passThrough":0,"networkWide":1,"vpc":0,"zone":0,"subnet":0,"security":0},
       "spanner.v1.instance":{"provider":"gcp","avatar":"GCP-Cloud-Spanner","visible":1,"passThrough":1,"networkWide":0,"vpc":0,"zone":0,"subnet":0,"security":0},
       "sqladmin.v1beta4.database":{"provider":"gcp","avatar":"GCP-Cloud-SQL","visible":1,"passThrough":1,"networkWide":0,"vpc":0,"zone":0,"subnet":0,"security":0},
       "sqladmin.v1beta4.instance":{"provider":"gcp","avatar":"GCP-Cloud-SQL","visible":1,"passThrough":1,"networkWide":0,"vpc":0,"zone":0,"subnet":0,"security":0},

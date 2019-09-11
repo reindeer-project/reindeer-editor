@@ -1,16 +1,18 @@
 @font-face {
   font-family: 'iconACF';
-  src:  url('fonts/iconACF.eot?h2h9xx');
-  src:  url('fonts/iconACF.eot?h2h9xx#iefix') format('embedded-opentype'),
-    url('fonts/iconACF.ttf?h2h9xx') format('truetype'),
-    url('fonts/iconACF.woff?h2h9xx') format('woff'),
-    url('fonts/iconACF.svg?h2h9xx#iconACF') format('svg');
+  src:  url('fonts/iconACF.eot?33e9w0');
+  src:  url('fonts/iconACF.eot?33e9w0#iefix') format('embedded-opentype'),
+    url('fonts/iconACF.ttf?33e9w0') format('truetype'),
+    url('fonts/iconACF.woff?33e9w0') format('woff'),
+    url('fonts/iconACF.svg?33e9w0#iconACF') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 .icon {
   /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconACF' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -23,6 +25,58 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-AWS-Cloud-alt_light-bg .path1:before {
+  content: "\ebf5";
+  color: rgb(35, 47, 62);
+}
+.icon-AWS-Cloud-alt_light-bg .path2:before {
+  content: "\ed47";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-alt_light-bg .path3:before {
+  content: "\ed48";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-alt_light-bg .path4:before {
+  content: "\ed49";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-alt_dark-bg .path1:before {
+  content: "\ed4a";
+  color: rgb(255, 255, 255);
+}
+.icon-AWS-Cloud-alt_dark-bg .path2:before {
+  content: "\ed4b";
+  margin-left: -1em;
+  color: rgb(35, 47, 62);
+}
+.icon-AWS-Cloud-alt_dark-bg .path3:before {
+  content: "\ed4c";
+  margin-left: -1em;
+  color: rgb(35, 47, 62);
+}
+.icon-AWS-Cloud-alt_dark-bg .path4:before {
+  content: "\ed4d";
+  margin-left: -1em;
+  color: rgb(35, 47, 62);
+}
+.icon-General_dark-bg .path1:before {
+  content: "\ed4e";
+  color: rgb(255, 255, 255);
+}
+.icon-General_dark-bg .path2:before {
+  content: "\ed4f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-General_dark-bg .path3:before {
+  content: "\ed50";
+  margin-left: -1em;
+  color: rgb(35, 47, 62);
+}
 .icon-AWS-General_AWS-Cloud_light-bg:before {
   content: "\e900";
 }

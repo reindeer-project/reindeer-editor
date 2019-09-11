@@ -1,6 +1,6 @@
 {
   "name": "reindeer-editor",
-  "version": "0.1.0",
+  "version": "0.2.3",
   "description": "A documentation generation tool supported by Reindeer Project. You can edit a CDD and display the cloud computing architecture by using this.",
   "author": "ShintaroHara",
   "private": true,
