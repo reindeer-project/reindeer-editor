@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+    <script>
+      var ua = window.navigator.userAgent;
+      var msie = ua.indexOf("MSIE ");
+      if (ua.indexOf("Edge") >0 || msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+        window.alert("Please use Chrome or Safari: Your browser is not supported.");
+      }
+    </script>
+  </body>
+</html>

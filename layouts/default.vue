@@ -70,7 +70,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Reindeer Editor 0.2.3',
+      title: 'Reindeer Editor 0.2.4',
       locale: this.$i18n.locale,
       dialog: false
     }
@@ -103,10 +103,11 @@ export default {
       this.editorlayout=val;
     },
     changeLanguage(code){
+        var r=this.$route.name.split("___");
         if(code=="en"){
-          window.location.href = "/";
+          window.location.href = "/"+r[0]+"/";
         }else{
-          window.location.href = "/"+code+"/";
+          window.location.href = "/"+code+"/"+r[0]+"/";
         }
     },
     goCDS(){
