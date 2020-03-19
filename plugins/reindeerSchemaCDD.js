@@ -31,7 +31,7 @@ var model={
                     title: modelObj["i18n"]("cdd.reindeer.t"),
                     description: modelObj["i18n"]("cdd.reindeer.d"),
                     type: "string",
-                    enum: ["1.0.0"]
+                    enum: ["1.1.0"]
                 },
                 self: {
                     title: modelObj["i18n"]("cdd.self.t"),
@@ -232,6 +232,18 @@ var model={
                         "^[0-9a-zA-Z]+$": {
                             type: "object",
                             $ref: "https://reindeer.tech/cdd-schema/v1/author.json"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                organizations: {
+                    title: modelObj["i18n"]("cdd.infoObj.organizations.t"),
+                    description:  modelObj["i18n"]("cdd.infoObj.organizations.d"),
+                    type: "object",
+                    patternProperties:{
+                        "^[0-9a-zA-Z]+$": {
+                            type: "object",
+                            $ref: "https://reindeer.tech/cdd-schema/v1/organization.json"
                         }
                     },
                     "additionalProperties": false
@@ -492,16 +504,26 @@ var model={
             description:  modelObj["i18n"]("cdd.license.d"),             
             type: "object",
             required: ["type"],
+            if: { properties:{ type: { enum:["Closed","OtherOpen"] }}},
+            then: { required:["provider"]},
             properties: {
                 type: {
                     title: modelObj["i18n"]("cdd.license.type.t"),
                     description:  modelObj["i18n"]("cdd.license.type.d"),
                     type: "string",
-                    default: "CC0 1.0"
+                    default: "CC0",
+                    enum: [
+                        "CC0",
+                        "Apache-2.0",
+                        "MIT",
+                        "BSD-2-Clause",
+                        "OtherOpen",
+                        "Closed"
+                    ]
                 },
-                url: {
-                    title: modelObj["i18n"]("cdd.license.url.t"),
-                    description:  modelObj["i18n"]("cdd.license.url.d"),
+                provider: {
+                    title: modelObj["i18n"]("cdd.license.provider.t"),
+                    description:  modelObj["i18n"]("cdd.license.provider.d"),
                     type: "string"
                 }
             },
@@ -536,7 +558,43 @@ var model={
                     description: modelObj["i18n"]("cdd.author.leavedAt.d"),
                     type: "integer",
                     minimum: 1
-                }
+                },
+                sign: {
+                    title: modelObj["i18n"]("cdd.author.sign.t"),
+                    description: modelObj["i18n"]("cdd.author.sign.d"),
+                    type: "string",
+                    minimum: 1
+                }               
+            },
+            additionalProperties: false 
+        }
+    },
+    {
+        uri: "https://reindeer.tech/cdd-schema/v1/organization.json",
+        schema: {
+            title: modelObj["i18n"]("cdd.organization.t"),
+            description:  modelObj["i18n"]("cdd.organization.d"),
+            type: "object",
+            required: ["joinedAt"],
+            properties: {
+                joinedAt: {
+                    title: modelObj["i18n"]("cdd.organization.joinedAt.t"),
+                    description:  modelObj["i18n"]("cdd.organization.joinedAt.d"),
+                    type: "integer",
+                    minimum: 1
+                },
+                leavedAt: {
+                    title: modelObj["i18n"]("cdd.organization.leavedAt.t"),
+                    description: modelObj["i18n"]("cdd.organization.leavedAt.d"),
+                    type: "integer",
+                    minimum: 1
+                },
+                sign: {
+                    title: modelObj["i18n"]("cdd.organization.sign.t"),
+                    description: modelObj["i18n"]("cdd.organization.sign.d"),
+                    type: "string",
+                    minimum: 1
+                }               
             },
             additionalProperties: false 
         }

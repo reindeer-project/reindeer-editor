@@ -3,7 +3,7 @@
     <v-toolbar dense :clipped-left="clipped" :fixed="fixed" app>
       <v-toolbar-title v-text="title" class="p-2"  />
       <v-spacer />
-      <v-btn depressed text small color="gray" @click="goCDS()"><v-icon class="pr-1">school</v-icon>CDS 1.0</v-btn>
+      <v-btn depressed text small color="gray" @click="goCDS()"><v-icon class="pr-1">school</v-icon>CDS 1.1</v-btn>
       <v-dialog v-model="dialog" scrollable max-width="300px">
         <template v-slot:activator="{ on }">
           <v-btn color="primary" small outline v-on="on">{{localeStr}}</v-btn>
@@ -33,7 +33,7 @@
     </v-content>
 
     <v-footer :fixed="fixed" app>
-      <v-spacer /><span class="pr-3">&nbsp; &copy; 2019 REINDEER TECHNOLOGY PTE. LTD.</span>
+      <v-spacer /><span class="pr-3">&nbsp; &copy; 2020 REINDEER TECHNOLOGY PTE. LTD.</span>
     </v-footer>
   </v-app>
 </template>
@@ -70,7 +70,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Reindeer Editor 0.2.4',
+      title: 'Reindeer Editor 0.3.0',
       locale: this.$i18n.locale,
       dialog: false
     }
