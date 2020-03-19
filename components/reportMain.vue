@@ -21,7 +21,7 @@
             <v-layout row wrap class="tabParent">
               <v-flex xs12 class="tabIcon pb-2"><v-icon>fas fa-user</v-icon></v-flex>
               <v-flex xs12 class="reportHeadNumberFont">{{this.structure.actorItems}}</v-flex>
-              <v-flex xs12 class="tabMenuFontMini pt-2"><span v-t="'cdd.actors.t'" /></v-flex>
+              <v-flex xs12 class="tabMenuFontMini pt-2"><span v-t="'cdd_actors_t'" /></v-flex>
             </v-layout>
           </v-tab>
 
@@ -29,7 +29,7 @@
             <v-layout row wrap class="tabParent">
               <v-flex xs12 class="tabIcon pb-2"><v-icon>fas fa-server</v-icon></v-flex>
               <v-flex xs12 class="reportHeadNumberFont">{{this.structure.resourceItems}}</v-flex>
-              <v-flex xs12 class="tabMenuFontMini pt-2"><span v-t="'cdd.resources.t'" /></v-flex>
+              <v-flex xs12 class="tabMenuFontMini pt-2"><span v-t="'cdd_resources_t'" /></v-flex>
 
             </v-layout>
           </v-tab>
@@ -38,7 +38,7 @@
             <v-layout row wrap class="tabParent">
               <v-flex xs12 class="tabIcon pb-2"><v-icon>fas fa-route</v-icon></v-flex>
               <v-flex xs12 class="reportHeadNumberFont">{{this.structure.contextItems}}</v-flex>
-              <v-flex xs12 class="tabMenuFontMini pt-2"><span v-t="'cdd.contexts.t'" /></v-flex>
+              <v-flex xs12 class="tabMenuFontMini pt-2"><span v-t="'cdd_contexts_t'" /></v-flex>
             </v-layout>
           </v-tab>
 
