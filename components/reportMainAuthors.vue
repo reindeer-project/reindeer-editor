@@ -7,7 +7,7 @@
  <div>
     <v-icon class="categoryIcon">people</v-icon>
     <div class="reportHeadNumberFont">{{this.authorMembers}} </div>
-    <div class="mb-3">{{this.$t.bind(this)("cdd.infoObj.authors.t")}} </div>
+    <div class="mb-3">{{this.$t.bind(this)("cdd_infoObj_authors_t")}} </div>
     <v-alert :value="true" color="#F5F5F5" class="infoBox alertCaption pt-0 pb-0 pr-0 pl-0 mt-3 mb-3">
       <v-container fill-height class="pl-0 pt-0 pb-0 pr-0 reportSectionMenuContainer">
         <v-spacer></v-spacer>
