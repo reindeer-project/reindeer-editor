@@ -1929,8 +1929,10 @@ export default {
         if(response["data"]["id"]){
           if(self.$i18n.locale!="en"){
             localestr=self.$i18n.locale+"/";
+            this.sharedID="https://editor.reindeer.tech/detail/"+"?id="+response["data"]["id"];
+          }else{
+            this.sharedID="https://editor.reindeer.tech/"+localestr+"/detail/"+"?id="+response["data"]["id"];
           }
-          this.sharedID="https://editor.reindeer.tech/"+localestr+"?id="+response["data"]["id"];
         }else{
           self.snackbarState=self.$t.bind(self)("errorSharing");
           self.snackbar = true;
