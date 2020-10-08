@@ -436,7 +436,7 @@ var model={
                     title: modelObj["i18n"]("cdd_resource_type_t"),
                     description:  modelObj["i18n"]("cdd_resource_type_d"),
                     type: "string",
-                    enum: ["acf","arm","gdm","aro","oth"]
+                    enum: ["acf","arm","gdm","aro","tfm","slf","oth"]
                 },
                 $ref: {
                     title: modelObj["i18n"]("cdd_resource_ref_t"),

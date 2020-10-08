@@ -45,6 +45,7 @@ export const getters = {
         {"lang":"gdm","fmt":"unknown","avatar":"icon iconReindeer icon-gcp","title":"Google Cloud Deployment Manager","support":"thin","icon":"sentiment_dissatisfied","tips":"fmtTypeUnknown"},
         {"lang":"aro","fmt":"unknown","avatar":"icon iconReindeer icon-general","title":"Alibaba Cloud Resource Orchestration","support":"thin","icon":"sentiment_dissatisfied","tips":"fmtTypeUnknown"},
         {"lang":"tfm","fmt":"unknown","avatar":"icon iconReindeer icon-terafform","title":"Terraform","support":"thin","icon":"sentiment_dissatisfied","tips":"fmtTypeUnknown"},
+        {"lang":"slf","fmt":"unknown","avatar":"icon iconReindeer icon-general","title":"ServerlessFramework","support":"thin","icon":"sentiment_dissatisfied","tips":"fmtTypeUnknown"},
         {"lang":"oth","fmt":"unknown","avatar":"icon iconReindeer icon-general","title":"Others","support":"no","icon":"sentiment_very_dissatisfied","tips":"fmtTypeUnknown"},
 
         {"lang":"cdd","fmt":"json","avatar":"icon iconReindeer icon-reindeer","title":"Cloud Design","support":"full","icon":"sentiment_very_satisfied","tips":"fmtTypeFullSupportedJSON"},
@@ -54,6 +55,7 @@ export const getters = {
         {"lang":"gdm","fmt":"json","avatar":"icon iconReindeer icon-gcp","title":"Google Cloud Deployment Manager","support":"thin","icon":"sentiment_dissatisfied","tips":"fmtTypeSupportedJSON"},
         {"lang":"aro","fmt":"json","avatar":"icon iconReindeer icon-general","title":"Alibaba Cloud Resource Orchestration","support":"thin","icon":"sentiment_dissatisfied","tips":"fmtTypeSupportedJSON"},
         {"lang":"tfm","fmt":"json","avatar":"icon iconReindeer icon-terafform","title":"Terraform","support":"thin","icon":"sentiment_dissatisfied","tips":"fmtTypeSupportedJSON"},
+        {"lang":"slf","fmt":"json","avatar":"icon iconReindeer icon-general","title":"ServerlessFramework","support":"thin","icon":"sentiment_dissatisfied","tips":"fmtTypeSupportedJSON"},
         {"lang":"oth","fmt":"json","avatar":"icon iconReindeer icon-general","title":"Others","support":"no","icon":"sentiment_very_dissatisfied","tips":"fmtTypeUnknown"},
 
         {"lang":"cdd","fmt":"yaml","avatar":"icon iconReindeer icon-reindeer","title":"Cloud Design","support":"thin","icon":"sentiment_very_dissatisfied","tips":""},
@@ -63,12 +65,13 @@ export const getters = {
         {"lang":"gdm","fmt":"yaml","avatar":"icon iconReindeer icon-gcp","title":"Google Cloud Deployment Manager","support":"thin","icon":"sentiment_very_dissatisfied","tips":"fmtTypeSupportedYAML"},
         {"lang":"aro","fmt":"yaml","avatar":"icon iconReindeer icon-general","title":"Alibaba Cloud Resource Orchestration","support":"thin","icon":"sentiment_very_dissatisfied","tips":"fmtTypeSupportedYAML"},
         {"lang":"tfm","fmt":"yaml","avatar":"icon iconReindeer icon-terraform","title":"Terraform","support":"thin","icon":"sentiment_very_dissatisfied","tips":"fmtTypeSupportedYAML"},
+        {"lang":"slf","fmt":"yaml","avatar":"icon iconReindeer icon-general","title":"ServerlessFramework","support":"thin","icon":"sentiment_very_dissatisfied","tips":"fmtTypeSupportedYAML"},
         {"lang":"oth","fmt":"yaml","avatar":"icon iconReindeer icon-general","title":"Others","support":"no","icon":"sentiment_very_dissatisfied","tips":"fmtTypeUnknown"}
 
         ].filter((v) => v.lang === type["lang"] && v.fmt === type["fmt"]);
     },
     typeMasterLangs (state) {
-        return ["cdd","cddSnippet","acf","gdm","arm","aro","tfm","oth"];
+        return ["cdd","cddSnippet","acf","gdm","arm","aro","tfm","slf","oth"];
     },
     typeMasterFmts (state) {
         return ["json","yaml","unknown"];

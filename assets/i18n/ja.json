@@ -188,7 +188,7 @@
     "cdd_resource_t":"Resource object",
     "cdd_resource_d":"このオブジェクトは、利用するクラウドコンピューティングリソースに関する情報を提供します。 JSONまたはYAMLでフォーマットされた外部ファイルに対する参照でなければなりません。 そして、以下のようなクラウド自動化ツールのために、整形されたデータであるべきです。\nAWS CloudFormation\nAzure Resource Manager\nGoogle Cloud Deployment Manager\nAlibaba Cloud\nResource Orchestration Service\nTerraform",
     "cdd_resource_type_t":"言語種類",
-    "cdd_resource_type_d":"必須. クラウドオートメーション言語の種別です。以下値の中の１つである必要があります。\nacf  AWS CloudFormation. \narm  Azure Resource Manager.\ngdm  Google Cloud Deployment Manager.\naro  Alibaba Cloud Resource Orchestration Service. \noth  その他",
+    "cdd_resource_type_d":"必須. クラウドオートメーション言語の種別です。以下値の中の１つである必要があります。\nacf  AWS CloudFormation. \narm  Azure Resource Manager.\ngdm  Google Cloud Deployment Manager.\naro  Alibaba Cloud Resource Orchestration Service. \ntfm: Terraform. \nslf: ServerlessFramework. \noth  その他",
     "cdd_resource_ref_t":"参照",
     "cdd_resource_ref_d":"必須. クラウドオートメーション言語で記述されたファイルへの参照で、Reference objectの$refアイテムと同じです。 .json, .yaml, または .ymlの拡張子を持つ外部ファイルを参照しなければなりません。 そしてその拡張子は、外部ツールによってリンク先のファイルフォーマットを検出するために利用されるべきものです。",
     "cdd_context_t":"コンテキストオブジェクト",

@@ -81,7 +81,8 @@ module.exports = {
     '@/plugins/resourceModelACF.js',
     '@/plugins/resourceMasterACF.js',
     '@/plugins/resourceModelGDM.js',
-    '@/plugins/resourceMasterGDM.js'
+    '@/plugins/resourceMasterGDM.js',
+    '@/plugins/resourceModelSLF.js'
   ],
 
   /*
