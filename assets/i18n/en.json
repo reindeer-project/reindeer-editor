@@ -188,7 +188,7 @@
     "cdd_resource_t":"Resource object",
     "cdd_resource_d":"The object provides information about cloud computing resources used by this system. It MUST be references of the external file formatted by JSON or YAML. And it SHOULD be well-formatted data for cloud automation tools like below.\nAWS CloudFormation\nAzure Resource Manager\nGoogle Cloud Deployment Manager\nAlibaba Cloud Resource Orchestration Service\nTerraform",
     "cdd_resource_type_t":"Language type",
-    "cdd_resource_type_d":"REQUIRED. Type of the cloud automation language. It MUST be one of the following values. \nacf  AWS CloudFormation. \narm  Azure Resource Manager. \ngdm  Google Cloud Deployment Manager. \naro  Alicloud Resource Orchestration Service. \noth  Others.",
+    "cdd_resource_type_d":"REQUIRED. Type of the cloud automation language. It MUST be one of the following values. \nacf  AWS CloudFormation. \narm  Azure Resource Manager. \ngdm  Google Cloud Deployment Manager. \naro  Alicloud Resource Orchestration Service. \ntfm: Terraform. \nslf: ServerlessFramework. \noth  Others.",
     "cdd_resource_ref_t":"Reference",
     "cdd_resource_ref_d":"REQUIRED. Reference to the file written by cloud automation language. Same as the $ref item of Reference object. This MUST point to the external file with extension, .json, .yaml, or .yml. And the extension SHOULD be used by external tools to detect the file format of the link.",
     "cdd_context_t":"Context object",

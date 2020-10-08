@@ -84,6 +84,25 @@ export const mutations = {
                 var tmpStructure=self.$resourceModelGDM(self,prefixID,eachFile["dataObject"]);
                 structureObj["resources"] = Object.assign(structureObj["resources"], tmpStructure);
                 break;
+              case "slf":
+                if(eachFile["dataObject"]["provider"]){
+                  if(eachFile["dataObject"]["provider"]["name"]){
+                    switch (eachFile["dataObject"]["provider"]["name"]) {
+                      case "aws":
+                        prefixID=eachFile["id"];
+                        var tmpStructure=self.$resourceModelACF(self,prefixID,eachFile["dataObject"]["resources"]);
+                        structureObj["resources"] = Object.assign(structureObj["resources"], tmpStructure);
+                        break;
+                        break;
+                      default:
+                        prefixID=eachFile["id"];
+                        var tmpStructure=self.$resourceModelSLF(self,prefixID,eachFile["dataObject"]);
+                        structureObj["resources"] = Object.assign(structureObj["resources"], tmpStructure);
+                        break; 
+                    }
+                  }
+                }
+                break;
                 /*
               case "arm":
                 prefixID=eachFile["id"];
