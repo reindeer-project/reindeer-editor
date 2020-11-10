@@ -364,5 +364,7 @@
     "cdd_rangeValue_max_t":"Max value",
     "cdd_rangeValue_max_d":"REQUIRED. Max value of the range value.",
     "cdd_rangeValue_min_t":"Min value",
-    "cdd_rangeValue_min_d":"REQUIRED. Min value of the range value."
+    "cdd_rangeValue_min_d":"REQUIRED. Min value of the range value.",
+    "cdd_context_maxPerformanceDurationRatio_t":"Monthly duration ratio of maximum performance",
+    "cdd_context_maxPerformanceDurationRatio_d":"When calculating the cost required for the context, this value is used to synthesize the max and min values ​​of each Range values ​​object included in trigger and traffic. For example, in the case of a design that improves DAU by advertising effect only 3 days a month, the DAU value is expressed as min: 0.01, max: 0.1, and this value is expressed as 0.1. CloudDesign expresses performance and cost based on monthly usage, but with this value, it is possible to record a design that expects a maximum instantaneous performance of 100 rps while the monthly average is 1 rps."
 }}

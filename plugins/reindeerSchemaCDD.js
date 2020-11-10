@@ -31,7 +31,7 @@ var model={
                     title: modelObj["i18n"]("cdd_reindeer_t"),
                     description: modelObj["i18n"]("cdd_reindeer_d"),
                     type: "string",
-                    enum: ["1.1.0"]
+                    enum: ["1.0.0","1.1.0","1.2.0","1.3.0"]
                 },
                 self: {
                     title: modelObj["i18n"]("cdd_self_t"),
@@ -492,6 +492,13 @@ var model={
                         }
                     },
                     "additionalProperties": false         
+                },
+                maxPerformanceDurationRatio: {
+                    title:  modelObj["i18n"]("cdd_context_maxPerformanceDurationRatio_t"),
+                    description: modelObj["i18n"]("cdd_context_maxPerformanceDurationRatio_d"),
+                    type: "number",
+                    minimum: 0,
+                    maximum: 1
                 }
             },
             "additionalProperties": false

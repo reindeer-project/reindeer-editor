@@ -364,6 +364,8 @@
     "cdd_rangeValue_max_t":"最大値",
     "cdd_rangeValue_max_d":"必須. 値範囲の最大値を意味します。",
     "cdd_rangeValue_min_t":"最小値",
-    "cdd_rangeValue_min_d":"必須. 値範囲の最小値を意味します。"
+    "cdd_rangeValue_min_d":"必須. 値範囲の最小値を意味します。",
+    "cdd_context_maxPerformanceDurationRatio_t":"最大性能の月間持続時間比率",
+    "cdd_context_maxPerformanceDurationRatio_d":"コンテキストに求められるコストを計算する際、本値を利用してtriggerやtrafficsに含まれる各Range values objectのmaxとmin値を合成します。 例えば月間3日だけ広告効果でDAUを向上させる設計の場合、DAU値をmin:0.01, max:0.1、本値を0.1と表現します。 CloudDesignは月間使用量を基準に性能とコストを表現しますが、本値により月間平均は1rpsながらも瞬間最大性能100rpsを期待する設計が記録できます。"
 }}
    

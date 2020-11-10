@@ -362,6 +362,13 @@ var model={
                         }
                     },
                     "additionalProperties": false         
+                },
+                maxPerformanceDurationRatio: {
+                    title:  modelObj["i18n"]("cdd_context_maxPerformanceDurationRatio_t"),
+                    description: modelObj["i18n"]("cdd_context_maxPerformanceDurationRatio_d"),
+                    type: "number",
+                    minimum: 0,
+                    maximum: 1
                 }
             },
             "additionalProperties": false
