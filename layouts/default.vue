@@ -70,7 +70,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Reindeer Editor 0.4.0',
+      title: 'Reindeer Editor 0.4.1',
       locale: this.$i18n.locale,
       dialog: false
     }
