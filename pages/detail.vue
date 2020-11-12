@@ -1445,8 +1445,8 @@ export default {
                     ];
                     child.reqGBMin=Math.round(users*b.min*30*f.min*h.min/1024/1024*10)/10;
                     child.reqGBMax=Math.round(users*b.max*30*f.max*h.max/1024/1024*10)/10;
-                    child.reqRPSMin=Math.round(users*b.min/24/60/60/(c.max/24)*d.min*e.min*10)/10;
-                    child.reqRPSMax=Math.round(users*b.max/24/60/60/(c.min/24)*d.max*e.max*10)/10;
+                    child.reqRPSMin=Math.round(users*b.min/24/60/60/(c.min/24)*d.min*e.min*10)/10;
+                    child.reqRPSMax=Math.round(users*b.max/24/60/60/(c.max/24)*d.max*e.max*10)/10;
                     child.resGBMin=Math.round(users*b.min*30*d.min*g.min/1024/1024*10)/10;
                     child.resGBMax=Math.round(users*b.max*30*d.max*g.max/1024/1024*10)/10;
                     child.reqMin=Math.round(users*b.min*30*d.min*e.min*10)/10;
