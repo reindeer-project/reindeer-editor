@@ -6218,9 +6218,9 @@ three-orbitcontrols@^2.102.1:
   version "2.102.2"
   resolved "https://registry.yarnpkg.com/three-orbitcontrols/-/three-orbitcontrols-2.102.2.tgz#4126cbc941227ef03acdd9f2cc0551b7c7271e64"
 
-three@^0.104.0:
-  version "0.104.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.104.0.tgz#9ad1da492153b753a89e0df066631215bd9d9087"
+three@^0.137.0:
+  version "0.137.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.137.0.tgz#0ebd6ba66637a332c31f234bcdd35aeec071a6e3"
 
 through2@^2.0.0:
   version "2.0.5"
